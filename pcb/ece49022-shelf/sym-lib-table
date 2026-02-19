@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "ECE49022_Symbols")(type "KiCad")(uri "{$ECE49022_LIBS}/libs/Symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "ECE49022_Symbols")(type "KiCad")(uri "${ECE49022_LIBS}/libs/Symbols.kicad_sym")(options "")(descr ""))
 )
