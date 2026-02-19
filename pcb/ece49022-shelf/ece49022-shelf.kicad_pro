@@ -246,7 +246,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "ECE49022_Symbols"
+    ]
   },
   "meta": {
     "filename": "ece49022-shelf.kicad_pro",
