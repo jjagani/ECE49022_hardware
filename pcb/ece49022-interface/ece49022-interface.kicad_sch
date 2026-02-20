@@ -2,9 +2,51 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid ad062fbe-cbe6-4ffd-876d-97a59a1c7176)
+	(uuid "ad062fbe-cbe6-4ffd-876d-97a59a1c7176")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 52.07 46.99)
+		(size 24.13 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38c66e1c-a9c1-4f70-8d73-b1f3c290a529")
+		(property "Sheetname" "RP Pico 2 W"
+			(at 52.07 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RP2350_60QFN_minimal.kicad_sch"
+			(at 52.07 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ece49022-interface"
+				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
