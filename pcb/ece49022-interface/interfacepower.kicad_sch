@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "1c87f53b-fcb4-4f02-8128-55ebf00d570b")
+	(uuid "a5e584bc-5c3f-4bcb-b101-e03f272b8c2b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:USB_B_Micro"
