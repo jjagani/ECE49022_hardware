@@ -1836,7 +1836,7 @@
 		(uuid "84695c96-d43d-41b7-9fc6-152933c2a38a")
 	)
 	(label "5V_SREG"
-		(at 152.4 87.63 0)
+		(at 149.86 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
