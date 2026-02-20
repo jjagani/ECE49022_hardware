@@ -250,147 +250,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NAU7802-eagle-import:CAP_CERAMIC0805-NOOUTLINE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at -2.29 1.25 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 2.3 1.25 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "NAU7802:0805-NO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CAP_CERAMIC0805-NOOUTLINE_1_0"
-				(rectangle
-					(start -1.27 1.524)
-					(end 1.27 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.27 0.508)
-					(end 1.27 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.778)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "NAU7802-eagle-import:GND"
 			(power)
 			(exclude_from_sim no)
@@ -473,691 +332,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "NAU7802-eagle-import:HEADER-1X670MIL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -6.35 10.795 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -6.35 -10.16 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "NAU7802:1X06_ROUND_70"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "PIN HEADER"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "HEADER-1X670MIL_1_0"
-				(polyline
-					(pts
-						(xy -6.35 10.16) (xy -6.35 -7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -7.62) (xy 1.27 -7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 10.16) (xy -6.35 10.16)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 1.27 10.16)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 7.62 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 5.08 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "NAU7802-eagle-import:HEADER-1X6_2.54MMTERM"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -6.35 10.795 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -6.35 -10.16 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "NAU7802:1X06_2.54MMTERMINAL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "PIN HEADER"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "HEADER-1X6_2.54MMTERM_1_0"
-				(polyline
-					(pts
-						(xy -6.35 10.16) (xy -6.35 -7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -7.62) (xy 1.27 -7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 10.16) (xy -6.35 10.16)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 1.27 10.16)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 7.62 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 5.08 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "NAU7802-eagle-import:LED0603_NOOUTLINE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -1.27 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Footprint" "NAU7802:CHIPLED_0603_NOOUTLINE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "LED\n\n0603 - 0603 Surface Mount Package\n\n2mA:\n\n• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND\n• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND\n• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND\n• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND\n\n5mA:\n\n• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND\n\n0805 - 0805 Surface Mount Package\n\n2mA:\n\n• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]\n• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]\n• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]\n\n20mA:\n\n• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]\n• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]\n• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]\n• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]\n\n• 1206 - 1206 Surface Mount Package\n\n• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]\n• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]\n\n• Cree - Cree High-Power Surface Mount LEDs\n\n• XPEBWT-L1-0000-00D50 - White 111lm 350mA 2.9Vf 6200K 110°\n• XTEAWT-00-0000-00000LEE3 - White 114lm 350mA 2.85Vf 5000K 115°\n\n• Everlight - Everlight 45-21 Series Surface Mount LEDs\n\n• 45-21/QK2C-B2832AC2CB2/2T - Warm White 2000mcd 20mA 3.25Vf 3050K 120°\n• 45-21/LK2C-B38452C4CB2/2T - Nuetral White 2000mcd 20mA 3.25Vf 4150K 120°\n• 45-21/LK2C-B50634C6CB2/2T - Cold White 2200mcd 20mA 3.25Vf 5650K 120°\n\n• PLCC2 Reverse Mount\n\n• LS T77K-J1L2-1-0-2-R18-Z - Red 11.25mcd 2mA 1.8Vf 630nm 120°\n• LO T77K-L1M2-24-Z - Orange 19.6mcd 2mA 1.8Vf 606nm 120°\n• LY T77K-K2M1-26-Z - Yellow 15.7mcd 2mA 1.8Vf 587nm 120°"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED0603_NOOUTLINE_1_0"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.27) (xy -0.635 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.9525 2.8575) (xy -0.3175 2.2225)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.27) (xy 0.635 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3175 2.2225) (xy 0 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy -0.9525 2.8575)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.3175 2.8575) (xy 0.9525 2.2225)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.9525 2.2225) (xy 1.27 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.175) (xy 0.3175 2.8575)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
 						(effects
 							(font
 								(size 0 0)
@@ -2122,229 +1296,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NAU7802-eagle-import:STEMMA_I2C_QT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CONN"
-				(at -3.81 8.255 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 -7.62 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "NAU7802:JST_SH4"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "STEMMA_I2C_QT_1_0"
-				(polyline
-					(pts
-						(xy -3.81 7.62) (xy -3.81 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -5.08) (xy 3.81 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 7.62) (xy -3.81 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -5.08) (xy 3.81 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at 0 5.08 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 0 2.54 0)
-					(length 2.54)
-					(name "V+"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 0 0 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 0 -2.54 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(symbol "STEMMA_I2C_QT_2_0"
-				(pin bidirectional line
-					(at 0 0 0)
-					(length 5.08)
-					(name "MT"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "MT1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(symbol "STEMMA_I2C_QT_3_0"
-				(pin bidirectional line
-					(at 0 0 0)
-					(length 5.08)
-					(name "MT"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "MT2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "NAU7802-eagle-import:VCC"
 			(power)
 			(exclude_from_sim no)
@@ -2449,98 +1400,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NAU7802-eagle-import:supply1_371_GND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#GND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SUPPLY SYMBOL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "supply1_371_GND_1_0"
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
+	)
+	(junction
+		(at 113.03 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28582883-c220-46b0-bb6a-74e7af2f3209")
+	)
+	(junction
+		(at 109.22 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a73b941-bac4-479f-8c31-d94e1d69577a")
+	)
+	(junction
+		(at 105.41 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89a0fc20-f840-4102-8585-92825687f568")
 	)
 	(junction
 		(at 165.1 99.06)
@@ -2549,46 +1426,10 @@
 		(uuid "904f09c3-781e-4ee9-88ff-fee2f1c32d2e")
 	)
 	(junction
-		(at 165.1 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95ffac2a-5e17-4b4f-b8a3-ae95abf69c15")
-	)
-	(junction
-		(at 254 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97061b85-6382-495c-96c8-bf15d7b4a595")
-	)
-	(junction
-		(at 223.52 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1e60bb9-c600-49dd-acdf-f2d6ea54343e")
-	)
-	(junction
-		(at 165.1 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae845454-23ac-4be1-b1e3-2b5ba12ce331")
-	)
-	(junction
 		(at 165.1 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1d0f78b-d99e-49a3-bd3a-499af83ea7b2")
-	)
-	(junction
-		(at 223.52 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c40a4e32-6d66-423c-9d4a-9da3433d8915")
-	)
-	(junction
-		(at 254 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5b49806-03c0-4eac-b28a-654c30b2a896")
 	)
 	(junction
 		(at 172.72 119.38)
@@ -2596,45 +1437,23 @@
 		(color 0 0 0 0)
 		(uuid "ecfa6e33-5b15-416c-9ab6-cedd2e27e702")
 	)
-	(wire
-		(pts
-			(xy 167.64 114.3) (xy 175.26 114.3)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "005963bf-52ae-416f-b2a1-cb14049aa9f7")
+	(no_connect
+		(at 114.3 119.38)
+		(uuid "4047bfb5-cd6d-4658-9a0f-1263c19523b7")
+	)
+	(no_connect
+		(at 114.3 116.84)
+		(uuid "a7650b9c-b3ac-4ac2-bab4-19cdf431962e")
 	)
 	(wire
 		(pts
-			(xy 167.64 116.84) (xy 167.64 114.3)
+			(xy 233.68 90.17) (xy 238.76 90.17)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "014892ac-6166-40ed-9833-8a00cfbe5f92")
-	)
-	(wire
-		(pts
-			(xy 147.32 33.02) (xy 147.32 30.48)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "05b5a7fc-4545-4d14-b765-9e28766a127b")
-	)
-	(wire
-		(pts
-			(xy 175.26 109.22) (xy 190.5 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "061b5a0a-77fd-4ca4-bcbc-d1dd6fd298df")
+		(uuid "07c49bf0-8b13-4651-bef8-e9dbc4ff817b")
 	)
 	(wire
 		(pts
@@ -2648,26 +1467,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 43.18) (xy 147.32 45.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "08cf3cf4-f078-44e4-b465-14237d5fb060")
-	)
-	(wire
-		(pts
-			(xy 198.12 101.6) (xy 205.74 101.6)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "09637a29-689e-4f5d-a02f-c8a316546341")
-	)
-	(wire
-		(pts
 			(xy 165.1 99.06) (xy 172.72 99.06)
 		)
 		(stroke
@@ -2675,6 +1474,26 @@
 			(type solid)
 		)
 		(uuid "097a20fd-1236-4bed-9cc5-40f2fcc6636e")
+	)
+	(wire
+		(pts
+			(xy 105.41 102.87) (xy 105.41 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a68d427-0875-4dcd-b2dc-f1a371902986")
+	)
+	(wire
+		(pts
+			(xy 238.76 97.79) (xy 233.68 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b9184e0-d7a0-4b72-b84f-bc9d4e58d143")
 	)
 	(wire
 		(pts
@@ -2688,13 +1507,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 106.68) (xy 198.12 106.68)
+			(xy 109.22 83.82) (xy 109.22 87.63)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "1ff85128-d712-47ba-93b3-3a18f7514155")
+		(uuid "1e4c3d84-d72c-44a9-bd7e-3c3a354914b9")
 	)
 	(wire
 		(pts
@@ -2708,16 +1527,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 40.64) (xy 254 30.48)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "21fc9bff-8002-4859-aa2b-55d8089ba276")
-	)
-	(wire
-		(pts
 			(xy 160.02 104.14) (xy 160.02 99.06)
 		)
 		(stroke
@@ -2725,26 +1534,6 @@
 			(type solid)
 		)
 		(uuid "22bb55fe-38e2-4a83-8884-175c4675299f")
-	)
-	(wire
-		(pts
-			(xy 190.5 111.76) (xy 190.5 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "24419b23-c141-4c8c-9756-e9c1adb0be4c")
-	)
-	(wire
-		(pts
-			(xy 40.64 88.9) (xy 58.42 88.9)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "258d5ad9-f869-45a6-8162-e12a0a7c0e8b")
 	)
 	(wire
 		(pts
@@ -2768,13 +1557,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 96.52) (xy 45.72 96.52)
+			(xy 233.68 86.36) (xy 233.68 90.17)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "330f8b8d-b863-42b5-8e16-04dda8c6aa38")
+		(uuid "34d6d4db-500e-4947-b4fc-006ead751868")
 	)
 	(wire
 		(pts
@@ -2808,83 +1597,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 43.18) (xy 139.7 55.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "439f5867-e80d-4517-ac62-f6e9e751618c")
-	)
-	(wire
-		(pts
-			(xy 254 40.64) (xy 223.52 40.64)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "465240b2-2660-4825-9478-21c7a0f093fa")
-	)
-	(wire
-		(pts
-			(xy 114.3 106.68) (xy 99.06 106.68)
+			(xy 114.3 106.68) (xy 105.41 106.68)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "49bef0c9-4a10-42c8-8abc-6f2f51621c5f")
-	)
-	(wire
-		(pts
-			(xy 193.04 106.68) (xy 193.04 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "49cd9f3c-977c-44c1-8700-50e6b6f12f51")
-	)
-	(wire
-		(pts
-			(xy 254 30.48) (xy 254 27.94)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4bf9bfe1-7c3c-4dd1-8b61-58994911b0f1")
-	)
-	(wire
-		(pts
-			(xy 193.04 109.22) (xy 198.12 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4e7bc56e-6e85-4547-9163-345bc39f60ee")
-	)
-	(wire
-		(pts
-			(xy 78.74 33.02) (xy 78.74 38.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5098ec2d-cc0d-43c9-a800-e3212cde4349")
-	)
-	(wire
-		(pts
-			(xy 223.52 48.26) (xy 256.54 48.26)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "50e4435e-b583-4474-b3de-392fa28f9649")
 	)
 	(wire
 		(pts
@@ -2918,6 +1637,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 102.87) (xy 113.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67339a25-c33d-4ece-a0b3-f8e266bcc83e")
+	)
+	(wire
+		(pts
 			(xy 157.48 119.38) (xy 172.72 119.38)
 		)
 		(stroke
@@ -2948,47 +1677,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 55.88) (xy 121.92 55.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7ac33cff-85c6-47ad-aeab-9c4e1b0d7fa8")
-	)
-	(wire
-		(pts
-			(xy 195.58 99.06) (xy 195.58 106.68)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7d1d88fa-c50f-4bff-82c0-b7b427c30e72")
-	)
-	(wire
-		(pts
-			(xy 223.52 30.48) (xy 223.52 40.64)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "880a15df-0fec-470f-b87f-caed155f6dda")
-	)
-	(wire
-		(pts
-			(xy 96.52 45.72) (xy 96.52 43.18)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "88dd6353-ee0b-495a-a928-14a9c27b1583")
-	)
-	(wire
-		(pts
-			(xy 99.06 109.22) (xy 114.3 109.22)
+			(xy 99.06 109.22) (xy 113.03 109.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -3008,23 +1697,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 116.84) (xy 167.64 116.84)
+			(xy 113.03 109.22) (xy 114.3 109.22)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "93844d6a-3bc1-4f30-8dea-b7b1e03cbab0")
-	)
-	(wire
-		(pts
-			(xy 68.58 45.72) (xy 68.58 50.8)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9cca3d06-ef0e-4b53-8feb-0954372e90fb")
+		(uuid "95f123e5-40eb-4a93-977e-6a6673b81461")
 	)
 	(wire
 		(pts
@@ -3038,7 +1717,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 106.68) (xy 193.04 106.68)
+			(xy 182.88 106.68) (xy 195.58 106.68)
 		)
 		(stroke
 			(width 0.1524)
@@ -3048,33 +1727,13 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 101.6) (xy 205.74 96.52)
+			(xy 109.22 87.63) (xy 113.03 87.63)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "aa9bb35c-7972-404b-818b-d2130d2b66ac")
-	)
-	(wire
-		(pts
-			(xy 198.12 111.76) (xy 190.5 111.76)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ab904565-37b9-49b2-afbc-8e9874325ad1")
-	)
-	(wire
-		(pts
-			(xy 68.58 33.02) (xy 68.58 38.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b1b52d8c-e95c-4f4a-9785-5d0d07f88547")
+		(uuid "b67ead40-197b-429f-94f7-533c7d41c6eb")
 	)
 	(wire
 		(pts
@@ -3088,33 +1747,23 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 104.14) (xy 205.74 104.14)
+			(xy 105.41 92.71) (xy 105.41 87.63)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "b6e36e15-1294-484f-9ae9-f58065ad9d24")
+		(uuid "b906b2ac-be73-42f5-8316-02b85589d74a")
 	)
 	(wire
 		(pts
-			(xy 96.52 30.48) (xy 96.52 33.02)
+			(xy 105.41 106.68) (xy 99.06 106.68)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "b9e20a25-a5c8-4183-b7bf-44187cade1c0")
-	)
-	(wire
-		(pts
-			(xy 58.42 93.98) (xy 45.72 93.98)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c0b10adf-d28b-4c53-9c51-ff410dbe2e3c")
+		(uuid "ba59c57b-2016-4346-9c9d-85f9a819d201")
 	)
 	(wire
 		(pts
@@ -3128,16 +1777,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 45.72) (xy 78.74 50.8)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c29bcefa-4d9e-4692-a79b-65cbae0de52f")
-	)
-	(wire
-		(pts
 			(xy 157.48 106.68) (xy 165.1 106.68)
 		)
 		(stroke
@@ -3145,46 +1784,6 @@
 			(type solid)
 		)
 		(uuid "c736607f-3956-4eda-a78b-936cbcc3cbc5")
-	)
-	(wire
-		(pts
-			(xy 58.42 86.36) (xy 50.8 86.36)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cb127180-f0c0-4605-bba6-7e1be7dfeda5")
-	)
-	(wire
-		(pts
-			(xy 185.42 114.3) (xy 198.12 114.3)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d4f0befb-2682-4548-bb83-568cd6f4f94b")
-	)
-	(wire
-		(pts
-			(xy 223.52 43.18) (xy 256.54 43.18)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d8f5d23e-f017-4a01-9ab8-98f023ace8cf")
-	)
-	(wire
-		(pts
-			(xy 256.54 45.72) (xy 223.52 45.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d9985611-badf-42fb-a6ea-8faf0471b57b")
 	)
 	(wire
 		(pts
@@ -3208,23 +1807,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 91.44) (xy 68.58 91.44)
+			(xy 113.03 92.71) (xy 113.03 87.63)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "e2eb9b92-e149-4789-b15f-3a36d4b219b5")
+		(uuid "e4ddbb00-3f41-4275-a39c-b9a5b33e4d65")
 	)
 	(wire
 		(pts
-			(xy 147.32 45.72) (xy 121.92 45.72)
+			(xy 233.68 97.79) (xy 233.68 101.6)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "e4a4c72d-8b90-4f7b-a5ad-b898a400d04c")
+		(uuid "e533aad5-5542-4475-a2da-2aac10c05b7b")
 	)
 	(wire
 		(pts
@@ -3238,73 +1837,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 99.06) (xy 45.72 99.06)
+			(xy 105.41 87.63) (xy 109.22 87.63)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "e632237b-173f-4b8d-841d-697501c57772")
-	)
-	(wire
-		(pts
-			(xy 50.8 86.36) (xy 50.8 81.28)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ec757d0e-f472-42cd-b34c-af9a9934f732")
-	)
-	(wire
-		(pts
-			(xy 40.64 81.28) (xy 40.64 88.9)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ef7db371-0e75-46eb-85a1-54abd97f76f5")
-	)
-	(wire
-		(pts
-			(xy 205.74 104.14) (xy 205.74 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f37872ed-a862-4b39-adca-99382fa5679b")
-	)
-	(wire
-		(pts
-			(xy 223.52 27.94) (xy 223.52 30.48)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f7d8d87f-954d-4baf-b6c7-f4b8bcdecff5")
-	)
-	(wire
-		(pts
-			(xy 139.7 30.48) (xy 139.7 33.02)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fd03b33a-4adb-40e2-8125-b6fddfe5f20e")
-	)
-	(wire
-		(pts
-			(xy 256.54 40.64) (xy 254 40.64)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fd732bfc-68a5-4aae-a2ee-b52245f3bc98")
+		(uuid "eb70481c-3af8-4be4-8e68-8661c53df912")
 	)
 	(label "SDA"
 		(at 101.6 106.68 0)
@@ -3326,56 +1865,6 @@
 		)
 		(uuid "17255845-e68c-423d-bd98-089a6f482d99")
 	)
-	(label "GND"
-		(at 238.76 40.64 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b936afd-b821-4f73-9f41-e6bad72bdb49")
-	)
-	(label "SDA"
-		(at 238.76 45.72 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "295ba2e8-fe14-42e2-a67d-21eec68170ce")
-	)
-	(label "SDA"
-		(at 45.72 96.52 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a2e78e4-55a6-4203-a7fc-b2c6be02aeb2")
-	)
-	(label "DRDY"
-		(at 45.72 99.06 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "5887738f-5503-4f7a-b2c9-d7bec07058ec")
-	)
-	(label "B+"
-		(at 187.96 114.3 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "68ae8006-f1b3-4f61-b75f-c5579ac33b84")
-	)
 	(label "DRDY"
 		(at 101.6 111.76 0)
 		(effects
@@ -3396,26 +1885,6 @@
 		)
 		(uuid "8ecc7fd5-0767-4d8c-9c41-d4ed25ee9317")
 	)
-	(label "VCC"
-		(at 238.76 43.18 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "981db6b1-e12e-4684-a3ef-996fb545d0c9")
-	)
-	(label "B-"
-		(at 187.96 109.22 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f907dd4-4820-475d-965b-8fe74e7f4600")
-	)
 	(label "A+"
 		(at 187.96 106.68 0)
 		(effects
@@ -3426,142 +1895,86 @@
 		)
 		(uuid "c2796a7d-1bec-457c-b277-611e6ed6032e")
 	)
-	(label "SDA"
-		(at 132.08 45.72 0)
+	(hierarchical_label "SDIO"
+		(shape input)
+		(at 99.06 106.68 180)
 		(effects
 			(font
-				(size 1.2446 1.2446)
+				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "c4f68fa6-c467-4df4-8ea0-b8bde450f7cc")
+		(uuid "2239d2bb-313e-406d-8b31-284110130a80")
 	)
-	(label "SCL"
-		(at 45.72 93.98 0)
+	(hierarchical_label "White"
+		(shape input)
+		(at 195.58 99.06 0)
 		(effects
 			(font
-				(size 1.2446 1.2446)
+				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "ca0d839f-90fb-4425-ac08-4538b134a103")
+		(uuid "613be483-36d6-45c4-bb10-f52aad4d1b4b")
 	)
-	(label "SCL"
-		(at 132.08 55.88 0)
+	(hierarchical_label "Green"
+		(shape input)
+		(at 195.58 106.68 0)
 		(effects
 			(font
-				(size 1.2446 1.2446)
+				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "ebee17a8-c380-4eb8-b8da-d0f35626628b")
+		(uuid "945bed81-52c4-49a5-bd33-314e7df3c4e4")
 	)
-	(label "SCL"
-		(at 238.76 48.26 0)
+	(hierarchical_label "DRDY"
+		(shape input)
+		(at 99.06 111.76 180)
 		(effects
 			(font
-				(size 1.2446 1.2446)
+				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "ec269dc9-eb46-4fa8-9f2f-23d99ef26ae9")
+		(uuid "94f2c357-c319-49ed-b7d2-2e2791b41d8c")
+	)
+	(hierarchical_label "E+"
+		(shape input)
+		(at 238.76 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8f1c0e3-b985-4f93-857c-5d762d3519aa")
+	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 99.06 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3bdbad1-78ac-4a6c-adf4-5981d652c02c")
+	)
+	(hierarchical_label "E-"
+		(shape input)
+		(at 238.76 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eedeff38-1709-4dc7-9a5b-4fb0e27074b3")
 	)
 	(symbol
 		(lib_id "NAU7802-eagle-import:RESISTOR_4PACK")
-		(at 157.48 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "047f20b1-9a90-4eb8-9975-d54b31245035")
-		(property "Reference" "R3"
-			(at 160.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 157.48 38.1 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.2032)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "NAU7802:RESPACK_4X0603"
-			(at 157.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fd528fa7-85e5-40c4-9d1a-efe0892338e4")
-		)
-		(pin "1"
-			(uuid "93d7ef06-85e4-4dca-a239-b2e2bcaff46b")
-		)
-		(pin "8"
-			(uuid "8fa3d390-8cd5-4a9b-b45c-f3cfcfa2294a")
-		)
-		(pin "7"
-			(uuid "00e1250c-0e07-4d6d-a3e8-7b42463d77aa")
-		)
-		(pin "3"
-			(uuid "0676b5d1-5223-4a8e-aafb-7d8974afc78d")
-		)
-		(pin "6"
-			(uuid "88ecb540-04ee-4e0d-aaa6-ed5c9ef0c96a")
-		)
-		(pin "4"
-			(uuid "ab05553b-6eee-4eb4-8c6e-ccc7968205ae")
-		)
-		(pin "5"
-			(uuid "59a0cbeb-75cd-4c36-9c28-1ae3502b0a56")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:RESISTOR_4PACK")
-		(at 147.32 38.1 270)
+		(at 113.03 97.79 270)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3569,7 +1982,7 @@
 		(dnp no)
 		(uuid "04833e43-3d50-4193-bbac-4e6e99f78b26")
 		(property "Reference" "R3"
-			(at 149.86 38.1 0)
+			(at 115.57 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +1990,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 147.32 38.1 0)
+			(at 113.03 97.79 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3587,7 +2000,7 @@
 			)
 		)
 		(property "Footprint" "NAU7802:RESPACK_4X0603"
-			(at 147.32 38.1 0)
+			(at 113.03 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +2009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 38.1 0)
+			(at 113.03 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +2018,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 38.1 0)
+			(at 113.03 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,78 +2061,6 @@
 				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
 					(reference "R3")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:GND")
-		(at 68.58 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a736230-3e68-409f-8f1a-c8f9dfeda763")
-		(property "Reference" "#U$10"
-			(at 68.58 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.056 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcdeb873-db97-453f-9da0-b03d085002be")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#U$10")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "#U$10")
-					(unit 1)
 				)
 			)
 		)
@@ -3792,79 +2133,6 @@
 			(project ""
 				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
-		(at 68.58 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d39efd2-726d-4f0d-b90d-d15fd766291b")
-		(property "Reference" "C3"
-			(at 66.29 41.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 70.88 41.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NAU7802:0805-NO"
-			(at 68.58 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9251a2d-d2b3-4e4c-9f0f-3eb123234a9f")
-		)
-		(pin "2"
-			(uuid "03903087-39dd-4ef9-aace-fc8fb6566958")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3944,254 +2212,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NAU7802-eagle-import:STEMMA_I2C_QT")
-		(at 254 30.48 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "141061b5-5059-4f17-b225-87b96d2c6c24")
-		(property "Reference" "CONN4"
-			(at 250.19 22.225 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "STEMMA_I2C_QT"
-			(at 250.19 38.1 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NAU7802:JST_SH4"
-			(at 254 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "4dd0f4d8-42d3-4145-9803-965234f20fca")
-		)
-		(pin "MT1"
-			(uuid "eb8da3b5-dbcd-4623-b8cb-ea34e66602de")
-		)
-		(pin "1"
-			(uuid "5396fdb1-2593-4d52-92ea-ea77df4dbe05")
-		)
-		(pin "2"
-			(uuid "b120dda7-3efa-454d-afcc-d4d78921f025")
-		)
-		(pin "3"
-			(uuid "b3092036-727e-40c9-8d81-0590e58c9e53")
-		)
-		(pin "MT2"
-			(uuid "19a2e186-ccd8-4d8b-b415-639a7a64c80f")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "CONN4")
-					(unit 2)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "CONN4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:STEMMA_I2C_QT")
-		(at 256.54 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15ee5ea9-fc68-46c5-8922-f08ce2754584")
-		(property "Reference" "CONN4"
-			(at 252.73 37.465 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "STEMMA_I2C_QT"
-			(at 252.73 53.34 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "NAU7802:JST_SH4"
-			(at 256.54 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 256.54 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ebe974b7-0a56-4b60-aa1b-47b64f0a3f56")
-		)
-		(pin "2"
-			(uuid "a2fde45f-41cd-4db9-b3e9-00938d40d6b2")
-		)
-		(pin "3"
-			(uuid "fd14a57e-638a-439c-bec2-608aaa52798f")
-		)
-		(pin "4"
-			(uuid "3f58c767-1d7c-4981-adbb-ff115afaa9be")
-		)
-		(pin "MT1"
-			(uuid "0d03900e-bfec-47fc-9f4f-00b1d098a704")
-		)
-		(pin "MT2"
-			(uuid "0625527b-2121-40a0-ba8c-662c5d661ac6")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "CONN4")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "CONN4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:supply1_371_GND")
-		(at 96.52 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25d635fd-512b-4390-8e1d-672c0a40f20c")
-		(property "Reference" "#GND6"
-			(at 96.52 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 58.42 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a034dcef-f20e-4d2d-aad0-c0499e359d0b")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#GND6")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "#GND6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NAU7802-eagle-import:AVDD")
 		(at 134.62 83.82 0)
 		(unit 1)
@@ -4265,7 +2285,7 @@
 	)
 	(symbol
 		(lib_id "NAU7802-eagle-import:VCC")
-		(at 147.32 27.94 0)
+		(at 109.22 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4273,7 +2293,7 @@
 		(dnp no)
 		(uuid "2d759780-e50b-4a71-a496-c4451749c5e2")
 		(property "Reference" "#P+2"
-			(at 147.32 27.94 0)
+			(at 109.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,7 +2302,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 144.78 30.48 90)
+			(at 106.68 83.82 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4291,7 +2311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 27.94 0)
+			(at 109.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,7 +2320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 27.94 0)
+			(at 109.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +2329,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 27.94 0)
+			(at 109.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,88 +2356,16 @@
 		)
 	)
 	(symbol
-		(lib_id "NAU7802-eagle-import:VCC")
-		(at 68.58 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31d587a1-bb6e-4c82-ade4-69ad09d33432")
-		(property "Reference" "#P+5"
-			(at 68.58 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 66.04 33.02 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4110f601-1f40-4878-a362-5b0a1b0e69bc")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#P+5")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "#P+5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NAU7802-eagle-import:AVDD")
-		(at 40.64 78.74 0)
+		(at 233.68 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "358b470f-0129-4b75-950f-ed2dbb789183")
-		(property "Reference" "#U$13"
-			(at 40.64 78.74 0)
+		(uuid "3a414d73-d476-4671-8428-61cd82bdf557")
+		(property "Reference" "#U$01"
+			(at 233.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,7 +2374,7 @@
 			)
 		)
 		(property "Value" "AVDD"
-			(at 39.116 77.724 0)
+			(at 232.156 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -4435,7 +2383,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 78.74 0)
+			(at 233.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4444,7 +2392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 78.74 0)
+			(at 233.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4453,7 +2401,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 78.74 0)
+			(at 233.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,18 +2410,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fcb839a0-db48-4260-a724-82f5787b30d1")
+			(uuid "e619bc15-633a-48d9-821c-5338fad86651")
 		)
 		(instances
-			(project ""
+			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#U$13")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "#U$13")
+					(reference "#U$01")
 					(unit 1)
 				)
 			)
@@ -4481,15 +2423,15 @@
 	)
 	(symbol
 		(lib_id "NAU7802-eagle-import:GND")
-		(at 205.74 111.76 0)
+		(at 233.68 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "35fa4a92-99c9-4c64-8201-e239fdd22887")
-		(property "Reference" "#U$14"
-			(at 205.74 111.76 0)
+		(uuid "517a0f01-6370-4d7b-9573-2ec2c47e314e")
+		(property "Reference" "#U$010"
+			(at 233.68 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4498,7 +2440,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.216 114.3 0)
+			(at 232.156 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -4507,7 +2449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 111.76 0)
+			(at 233.68 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +2458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 111.76 0)
+			(at 233.68 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,7 +2467,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 111.76 0)
+			(at 233.68 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,337 +2476,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c576ca31-dda4-4052-ab89-7632a61bf3e5")
+			(uuid "81c76673-dfee-4b17-a41d-793116f652ff")
 		)
 		(instances
-			(project ""
+			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#U$14")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "#U$14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:GND")
-		(at 68.58 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38796fb5-7b56-42cf-acca-b6682875ec39")
-		(property "Reference" "#U$5"
-			(at 68.58 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.056 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e04fd938-bb2f-458d-b259-787a59915999")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#U$5")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "#U$5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:STEMMA_I2C_QT")
-		(at 223.52 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "404044b9-0cfa-401f-a014-9d31b3639633")
-		(property "Reference" "CONN3"
-			(at 219.71 37.465 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "STEMMA_I2C_QT"
-			(at 219.71 53.34 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "NAU7802:JST_SH4"
-			(at 223.52 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38098f38-1b6e-4127-b488-99d98b3a8116")
-		)
-		(pin "2"
-			(uuid "ad39b6b3-4bf7-4a3f-b5f5-b3af9db31a46")
-		)
-		(pin "3"
-			(uuid "c42b1bf8-b0a0-4096-ab06-30224f5ad359")
-		)
-		(pin "MT2"
-			(uuid "35c86995-e9b4-4bac-a2d1-823230702b41")
-		)
-		(pin "MT1"
-			(uuid "8af7816e-73a9-4a78-bd8c-2bed8159ef5d")
-		)
-		(pin "4"
-			(uuid "d4ce50fe-9034-4323-85a2-80ce894f4072")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "CONN3")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "CONN3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:CAP_CERAMIC0603_NO")
-		(at 78.74 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52bf86a8-0acc-4640-ad45-a89f32fe1665")
-		(property "Reference" "C1"
-			(at 76.45 41.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 81.04 41.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NAU7802:0603-NO"
-			(at 78.74 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f90daed6-6692-46b0-93b5-17e207aa4246")
-		)
-		(pin "2"
-			(uuid "23573007-febb-4473-8fcb-26d91134e04f")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:HEADER-1X6_2.54MMTERM")
-		(at 200.66 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "564fca58-0cfc-4065-b505-4eebfbc6c917")
-		(property "Reference" "JP2"
-			(at 194.31 98.425 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "6p 2.54"
-			(at 194.31 119.38 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "NAU7802:1X06_2.54MMTERMINAL"
-			(at 200.66 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e722fc5a-b128-42fb-bee0-5598641e6d6d")
-		)
-		(pin "2"
-			(uuid "ba7935cf-e351-4067-a9a3-4aa44d0bb1bb")
-		)
-		(pin "5"
-			(uuid "244979f7-8274-4526-9551-495a58d92567")
-		)
-		(pin "4"
-			(uuid "1fbedc13-01b5-424d-ab1a-8fd8892fcf39")
-		)
-		(pin "3"
-			(uuid "5a09b6bf-d6cc-4cef-ba3b-8eb09ac32b3a")
-		)
-		(pin "6"
-			(uuid "58341671-eb1d-4117-b283-dba4d2f4fa0e")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "JP2")
+					(reference "#U$010")
 					(unit 1)
 				)
 			)
@@ -5161,260 +2778,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NAU7802-eagle-import:AVDD")
-		(at 205.74 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7de1fa5b-579f-4047-8339-b573200b16b8")
-		(property "Reference" "#U$15"
-			(at 205.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AVDD"
-			(at 204.216 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d58757a-ddf2-4e6c-a08c-b6ea4c37888f")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#U$15")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "#U$15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:STEMMA_I2C_QT")
-		(at 223.52 27.94 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e48355a-b4a7-4bff-868d-13d2cead5f1b")
-		(property "Reference" "CONN3"
-			(at 219.71 19.685 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "STEMMA_I2C_QT"
-			(at 219.71 35.56 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NAU7802:JST_SH4"
-			(at 223.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MT2"
-			(uuid "7271ced3-dc2a-401a-8578-42977c459bfc")
-		)
-		(pin "1"
-			(uuid "9b5346ed-c864-4c72-a116-36b4559fd1ca")
-		)
-		(pin "3"
-			(uuid "cf5ec361-49f8-49ee-be54-8ca308192021")
-		)
-		(pin "4"
-			(uuid "b496cc75-4653-43e7-b296-d8573060d9a7")
-		)
-		(pin "MT1"
-			(uuid "8be2319c-c8c3-48bc-a776-fcec286b22ba")
-		)
-		(pin "2"
-			(uuid "d6ae9e7f-2886-4ab3-850d-a67398570f51")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "CONN3")
-					(unit 2)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "CONN3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:RESISTOR_4PACK")
-		(at 96.52 38.1 270)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "887eaac5-92c3-43ad-a15b-247845f7935c")
-		(property "Reference" "R3"
-			(at 99.06 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 96.52 38.1 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.2032)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "NAU7802:RESPACK_4X0603"
-			(at 96.52 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a01dca9-bce5-40a8-a97e-506f6164c4d2")
-		)
-		(pin "3"
-			(uuid "53679ac8-f730-41b5-a156-f6dafed4ea7b")
-		)
-		(pin "5"
-			(uuid "bb2c40f1-341c-488c-b9f8-1a8ac4e83ebe")
-		)
-		(pin "8"
-			(uuid "3d0c7f81-4819-4bbc-8d33-918150c4929a")
-		)
-		(pin "2"
-			(uuid "a6390027-9f09-43c7-a652-7e52a265c8b0")
-		)
-		(pin "7"
-			(uuid "c03c5b22-27c1-4547-8b56-a596fbc8a3a2")
-		)
-		(pin "6"
-			(uuid "971a1acc-7e76-49e5-9b29-78f0684e9e4a")
-		)
-		(pin "4"
-			(uuid "0b2cf700-88ae-4bd3-98aa-3d75b811403a")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "R3")
-					(unit 2)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "R3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NAU7802-eagle-import:NAU7802")
 		(at 134.62 114.3 0)
 		(unit 1)
@@ -5532,155 +2895,8 @@
 		)
 	)
 	(symbol
-		(lib_id "NAU7802-eagle-import:VCC")
-		(at 78.74 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96a84861-ee42-4bdf-808e-9433d3f8d3fa")
-		(property "Reference" "#P+3"
-			(at 78.74 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 76.2 33.02 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31915758-732e-4418-8874-fe8ae49b885d")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#P+3")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "#P+3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:RESISTOR_0603_NOOUT")
-		(at 180.34 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "98773f76-8295-4e87-96d3-bb85fe7e50a0")
-		(property "Reference" "R5"
-			(at 180.34 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "51"
-			(at 180.34 114.3 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.2032)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "NAU7802:0603-NO"
-			(at 180.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d934172a-dba4-45c8-be02-3c8221caeb51")
-		)
-		(pin "2"
-			(uuid "2aa33548-2373-4744-ad1d-e0d56eb28de7")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NAU7802-eagle-import:RESISTOR_4PACK")
-		(at 139.7 38.1 270)
+		(at 105.41 97.79 270)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5688,7 +2904,7 @@
 		(dnp no)
 		(uuid "9d8b6d7b-1a57-4fc0-b96b-685db46fa24a")
 		(property "Reference" "R3"
-			(at 142.24 38.1 0)
+			(at 107.95 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +2912,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 139.7 38.1 0)
+			(at 105.41 97.79 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5706,7 +2922,7 @@
 			)
 		)
 		(property "Footprint" "NAU7802:RESPACK_4X0603"
-			(at 139.7 38.1 0)
+			(at 105.41 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,7 +2931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 38.1 0)
+			(at 105.41 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,7 +2940,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 38.1 0)
+			(at 105.41 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,239 +2988,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NAU7802-eagle-import:VCC")
-		(at 50.8 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ed4edb4-71b8-4916-8704-ec1115b077e5")
-		(property "Reference" "#P+4"
-			(at 50.8 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 48.26 81.28 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82077dfc-35d4-4df6-b015-bf3aff6d3faf")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#P+4")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "#P+4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:VCC")
-		(at 139.7 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a16a937d-523c-495b-be37-c8a5182abccc")
-		(property "Reference" "#P+1"
-			(at 139.7 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 137.16 30.48 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7c83100-881b-4a9d-899c-662cfa224be5")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#P+1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "#P+1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:STEMMA_I2C_QT")
-		(at 223.52 30.48 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1cb5d45-4760-4c61-ab84-2388dac826db")
-		(property "Reference" "CONN3"
-			(at 219.71 22.225 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "STEMMA_I2C_QT"
-			(at 219.71 38.1 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NAU7802:JST_SH4"
-			(at 223.52 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "81953518-e4c0-441c-acb4-7eae214db107")
-		)
-		(pin "1"
-			(uuid "1467ac33-db20-4665-8f5f-e35b992adb61")
-		)
-		(pin "4"
-			(uuid "a27fcbcb-8150-4821-8792-08c378201a3e")
-		)
-		(pin "MT1"
-			(uuid "daaa2164-b3c1-4fb7-8b08-21dc0b082ad6")
-		)
-		(pin "MT2"
-			(uuid "892f4553-d3d0-44de-9ac2-abc4073ca0fc")
-		)
-		(pin "3"
-			(uuid "e9fedf4f-093c-4d15-bcd5-d18f04ffa36b")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "CONN3")
-					(unit 3)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "CONN3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NAU7802-eagle-import:RESISTOR_0603_NOOUT")
 		(at 177.8 99.06 0)
 		(unit 1)
@@ -6021,7 +3004,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "47"
 			(at 177.8 99.06 0)
 			(effects
 				(font
@@ -6074,165 +3057,6 @@
 			(project ""
 				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:GND")
-		(at 78.74 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b970eed3-181d-48ca-aa5e-80d096d37737")
-		(property "Reference" "#U$6"
-			(at 78.74 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.216 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c3f9e6d-7bc0-4cab-be87-a55761b2884f")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#U$6")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "#U$6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:HEADER-1X670MIL")
-		(at 60.96 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c557c04b-d9fe-467b-85f5-f9fd77147960")
-		(property "Reference" "JP1"
-			(at 54.61 83.185 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "HEADER-1X670MIL"
-			(at 54.61 104.14 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "NAU7802:1X06_ROUND_70"
-			(at 60.96 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6a13d79b-a638-499d-bb91-ede4b5349406")
-		)
-		(pin "1"
-			(uuid "dfe5f3b1-0f07-4b37-b13c-70da61768b82")
-		)
-		(pin "4"
-			(uuid "8185be32-f93c-43c3-9019-06d3f2995e32")
-		)
-		(pin "3"
-			(uuid "8acd079e-c083-441c-8ff3-b866e3bbf463")
-		)
-		(pin "5"
-			(uuid "aed9adce-bce8-4c4f-95ac-000e9611475d")
-		)
-		(pin "6"
-			(uuid "7ca8bcea-3c02-4d99-ab54-bb01a9b83bfc")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -6327,7 +3151,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "47"
 			(at 177.8 106.68 0)
 			(effects
 				(font
@@ -6380,81 +3204,6 @@
 			(project ""
 				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:RESISTOR_0603_NOOUT")
-		(at 170.18 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d8aa5eae-744c-4523-af7b-cd60d42fe27d")
-		(property "Reference" "R4"
-			(at 170.18 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "51"
-			(at 170.18 109.22 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.2032)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "NAU7802:0603-NO"
-			(at 170.18 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f0124f85-6e97-4627-9a21-5041fd54929d")
-		)
-		(pin "1"
-			(uuid "01f3c6bf-c84f-4e69-9138-bf750c29bfa3")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6678,78 +3427,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NAU7802-eagle-import:VCC")
-		(at 96.52 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e91d00a2-c905-499e-abe8-c92a6e476525")
-		(property "Reference" "#P+6"
-			(at 96.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 93.98 30.48 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bec50c5-e093-4c6c-9eb0-e951da94cb2b")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#P+6")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "#P+6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NAU7802-eagle-import:GND")
 		(at 165.1 134.62 0)
 		(unit 1)
@@ -6822,79 +3499,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NAU7802-eagle-import:LED0603_NOOUTLINE")
-		(at 96.52 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f623f9f1-4fc2-4eb1-967f-275b4cfcfa7f")
-		(property "Reference" "D1"
-			(at 100.965 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-			)
-		)
-		(property "Value" "GREEN"
-			(at 93.726 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-			)
-		)
-		(property "Footprint" "NAU7802:CHIPLED_0603_NOOUTLINE"
-			(at 96.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "276c4f8a-fd2d-400b-9bbf-01e74dac3121")
-		)
-		(pin "C"
-			(uuid "2af96162-d3f6-4fd7-a81e-ca5ec457c4a3")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NAU7802-eagle-import:CAP_CERAMIC0603_NO")
 		(at 165.1 111.76 180)
 		(unit 1)
@@ -6911,7 +3515,7 @@
 				)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "680pF"
 			(at 162.8 113.01 90)
 			(effects
 				(font
@@ -7035,95 +3639,6 @@
 				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
 					(reference "#U$8")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:STEMMA_I2C_QT")
-		(at 254 27.94 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe2926da-74b9-4814-9335-32825dddf85d")
-		(property "Reference" "CONN4"
-			(at 250.19 19.685 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "STEMMA_I2C_QT"
-			(at 250.19 35.56 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NAU7802:JST_SH4"
-			(at 254 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ca016c94-90a0-4b8f-85b7-2889ade63b58")
-		)
-		(pin "1"
-			(uuid "a0e0f97b-0614-472b-be30-5e8abc5346e7")
-		)
-		(pin "4"
-			(uuid "9eedf433-45e7-4e32-8a19-120811f03adb")
-		)
-		(pin "3"
-			(uuid "48d586a0-f9d1-4662-bbb5-ad3f1ea582d7")
-		)
-		(pin "MT2"
-			(uuid "c6fbebf5-a302-4ead-8516-e9783d9072b3")
-		)
-		(pin "MT1"
-			(uuid "bc336631-b597-441a-ba2f-a59560a4281e")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "CONN4")
-					(unit 3)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "CONN4")
-					(unit 3)
 				)
 			)
 		)
