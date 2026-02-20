@@ -234,7 +234,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 114.3) (xy 91.44 105.41)
+			(xy 80.01 53.34) (xy 80.01 44.45)
 		)
 		(stroke
 			(width 0)
@@ -244,7 +244,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 109.22) (xy 46.99 109.22)
+			(xy 43.18 48.26) (xy 35.56 48.26)
 		)
 		(stroke
 			(width 0)
@@ -254,7 +254,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 109.22) (xy 81.28 105.41)
+			(xy 69.85 48.26) (xy 69.85 44.45)
 		)
 		(stroke
 			(width 0)
@@ -264,7 +264,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 114.3) (xy 91.44 114.3)
+			(xy 62.23 53.34) (xy 80.01 53.34)
 		)
 		(stroke
 			(width 0)
@@ -274,7 +274,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 109.22) (xy 81.28 109.22)
+			(xy 62.23 48.26) (xy 69.85 48.26)
 		)
 		(stroke
 			(width 0)
@@ -284,7 +284,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 119.38) (xy 91.44 119.38)
+			(xy 62.23 58.42) (xy 80.01 58.42)
 		)
 		(stroke
 			(width 0)
@@ -294,7 +294,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 119.38) (xy 91.44 125.73)
+			(xy 80.01 58.42) (xy 80.01 64.77)
 		)
 		(stroke
 			(width 0)
@@ -304,7 +304,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 109.22) (xy 46.99 104.14)
+			(xy 35.56 48.26) (xy 35.56 43.18)
 		)
 		(stroke
 			(width 0)
@@ -314,7 +314,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 125.73 0)
+		(at 80.01 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -323,7 +323,7 @@
 		(fields_autoplaced yes)
 		(uuid "0343035d-a677-4686-a0fc-40aadb31b9de")
 		(property "Reference" "#PWR048"
-			(at 91.44 132.08 0)
+			(at 80.01 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -332,7 +332,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 130.81 0)
+			(at 80.01 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -340,7 +340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 125.73 0)
+			(at 80.01 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -349,7 +349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 125.73 0)
+			(at 80.01 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -358,7 +358,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 125.73 0)
+			(at 80.01 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -380,7 +380,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 81.28 105.41 0)
+		(at 69.85 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -389,7 +389,7 @@
 		(fields_autoplaced yes)
 		(uuid "0795c8b4-7b83-4efb-bbc3-30fa83eb1ce9")
 		(property "Reference" "#PWR045"
-			(at 81.28 109.22 0)
+			(at 69.85 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -398,7 +398,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 81.28 100.33 0)
+			(at 69.85 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -406,7 +406,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 105.41 0)
+			(at 69.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -415,7 +415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 105.41 0)
+			(at 69.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -424,7 +424,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 81.28 105.41 0)
+			(at 69.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -446,7 +446,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 91.44 105.41 0)
+		(at 80.01 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -455,7 +455,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ca3562f-68e4-4542-9117-6cbd52eb9e58")
 		(property "Reference" "#PWR047"
-			(at 91.44 109.22 0)
+			(at 80.01 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -464,7 +464,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 91.44 100.33 0)
+			(at 80.01 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -472,7 +472,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 105.41 0)
+			(at 80.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -481,7 +481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 105.41 0)
+			(at 80.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -490,7 +490,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 91.44 105.41 0)
+			(at 80.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -512,7 +512,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 46.99 104.14 0)
+		(at 35.56 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -521,7 +521,7 @@
 		(fields_autoplaced yes)
 		(uuid "e66bb34b-74bf-4d18-a38f-0c80515ec3c5")
 		(property "Reference" "#PWR046"
-			(at 46.99 107.95 0)
+			(at 35.56 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -530,7 +530,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 46.99 99.06 0)
+			(at 35.56 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -538,7 +538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 104.14 0)
+			(at 35.56 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -547,7 +547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 104.14 0)
+			(at 35.56 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,7 +556,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 46.99 104.14 0)
+			(at 35.56 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -577,7 +577,7 @@
 		)
 	)
 	(sheet
-		(at 54.61 104.14)
+		(at 43.18 43.18)
 		(size 19.05 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -593,7 +593,7 @@
 		)
 		(uuid "0944a3eb-59fd-4ac1-bdcd-3b71376203c6")
 		(property "Sheetname" "Power"
-			(at 54.61 103.4284 0)
+			(at 43.18 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -602,7 +602,7 @@
 			)
 		)
 		(property "Sheetfile" "interfacepower.kicad_sch"
-			(at 54.61 123.7746 0)
+			(at 43.18 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -611,7 +611,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 73.66 119.38 0)
+			(at 62.23 58.42 0)
 			(uuid "701cd77c-44da-475e-945a-1546a7738797")
 			(effects
 				(font
@@ -621,7 +621,7 @@
 			)
 		)
 		(pin "5V" input
-			(at 73.66 114.3 0)
+			(at 62.23 53.34 0)
 			(uuid "92eb083d-3452-49fa-b83d-ba9a0e2c599d")
 			(effects
 				(font
@@ -631,7 +631,7 @@
 			)
 		)
 		(pin "12V" input
-			(at 54.61 109.22 180)
+			(at 43.18 48.26 180)
 			(uuid "a17844c7-6de7-4deb-99ab-d33b1e960161")
 			(effects
 				(font
@@ -641,7 +641,7 @@
 			)
 		)
 		(pin "3.3V" input
-			(at 73.66 109.22 0)
+			(at 62.23 48.26 0)
 			(uuid "1bab5c5c-7811-4ae3-8cf0-705fe8f2064c")
 			(effects
 				(font
@@ -659,7 +659,7 @@
 		)
 	)
 	(sheet
-		(at 189.23 78.74)
+		(at 44.45 95.25)
 		(size 26.67 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -675,7 +675,7 @@
 		)
 		(uuid "2cda17de-48e9-4606-9fa0-f43b9c27831a")
 		(property "Sheetname" "Lock Actuation"
-			(at 189.23 78.0284 0)
+			(at 44.45 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -684,7 +684,7 @@
 			)
 		)
 		(property "Sheetfile" "lockactuator.kicad_sch"
-			(at 189.23 111.0746 0)
+			(at 44.45 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -701,7 +701,7 @@
 		)
 	)
 	(sheet
-		(at 52.07 46.99)
+		(at 139.7 55.88)
 		(size 24.13 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -717,7 +717,7 @@
 		)
 		(uuid "38c66e1c-a9c1-4f70-8d73-b1f3c290a529")
 		(property "Sheetname" "RP Pico 2 W"
-			(at 52.07 46.2784 0)
+			(at 139.7 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -726,7 +726,7 @@
 			)
 		)
 		(property "Sheetfile" "RP2350_60QFN_minimal.kicad_sch"
-			(at 52.07 78.0546 0)
+			(at 139.7 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,7 +743,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 106.68)
+		(at 78.74 158.75)
 		(size 22.86 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -759,7 +759,7 @@
 		)
 		(uuid "6d9997a2-880e-441e-bac1-2563afa1369d")
 		(property "Sheetname" "Buzzer Driver"
-			(at 137.16 105.9684 0)
+			(at 78.74 158.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -768,7 +768,7 @@
 			)
 		)
 		(property "Sheetfile" "buzzerdriver.kicad_sch"
-			(at 137.16 136.4746 0)
+			(at 78.74 188.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -785,7 +785,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 64.77)
+		(at 45.72 143.51)
 		(size 19.05 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -801,7 +801,7 @@
 		)
 		(uuid "e1b04e99-9c80-47c4-ba5b-fc45b73e6708")
 		(property "Sheetname" "LED Driver"
-			(at 137.16 64.0584 0)
+			(at 45.72 142.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,7 +810,7 @@
 			)
 		)
 		(property "Sheetfile" "leddriver.kicad_sch"
-			(at 137.16 92.0246 0)
+			(at 45.72 170.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
