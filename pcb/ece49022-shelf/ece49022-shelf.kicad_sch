@@ -1894,7 +1894,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 115.57) (xy 95.25 115.57)
+			(xy 74.93 132.08) (xy 95.25 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2154,7 +2154,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 113.03) (xy 95.25 113.03)
+			(xy 74.93 129.54) (xy 95.25 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2593,7 +2593,7 @@
 		(uuid "b03aacec-15c2-45a0-88ab-033ef9450f33")
 	)
 	(label "MAIN_MCU_I2C_SCL"
-		(at 73.66 115.57 0)
+		(at 74.93 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2643,7 +2643,7 @@
 		(uuid "e6f13af1-c9dd-45a8-90f6-7e78e60ec0d1")
 	)
 	(label "MAIN_MCU_I2C_SDA"
-		(at 73.66 113.03 0)
+		(at 74.93 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4039,7 +4039,7 @@
 			)
 		)
 		(pin "I2C1_SDA" input
-			(at 95.25 113.03 180)
+			(at 95.25 129.54 180)
 			(uuid "931e1562-27fe-46f1-a77e-51df9367bd1c")
 			(effects
 				(font
@@ -4119,7 +4119,7 @@
 			)
 		)
 		(pin "I2C1_SCL" input
-			(at 95.25 115.57 180)
+			(at 95.25 132.08 180)
 			(uuid "b2f71f0e-c6b4-4bcf-8106-e6ed53d0725f")
 			(effects
 				(font
