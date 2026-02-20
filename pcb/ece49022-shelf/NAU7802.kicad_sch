@@ -1707,15 +1707,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 172.72 125.73 0)
+		(at 129.54 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "05a9b226-827b-4e0e-9871-dfab326f9bba")
-		(property "Reference" "C3"
-			(at 175.514 126.746 90)
+		(uuid "04deb2eb-63c1-40ce-86e8-d490fe66b3a0")
+		(property "Reference" "C5"
+			(at 132.334 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,8 +1723,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF, 16V"
-			(at 169.672 131.064 90)
+		(property "Value" "0.1uF, 25V"
+			(at 126.492 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +1733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 125.73 0)
+			(at 129.54 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,7 +1742,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 125.73 0)
+			(at 129.54 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,8 +1750,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 172.72 125.73 0)
+		(property "Description" "0402B104K250HI"
+			(at 129.54 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,15 +1760,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a94bb202-550d-4399-a2ee-efe48a83d2ec")
+			(uuid "4006109a-ee43-4ed0-9435-489c38da3f01")
 		)
 		(pin "2"
-			(uuid "d09055e2-6e96-4da9-9330-e8babc918748")
+			(uuid "a5c95e32-65bc-4de0-b70f-d565455d048f")
 		)
 		(instances
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -1836,75 +1836,6 @@
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 129.54 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "146a62a2-d02f-4824-9d12-3dbebdffa0b7")
-		(property "Reference" "C5"
-			(at 132.334 91.186 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF, 16V"
-			(at 126.492 95.504 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 129.54 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ce88bc2-0e85-4221-8159-8ca093f76283")
-		)
-		(pin "2"
-			(uuid "4ac01c2a-d9cd-4173-aa66-32c94ffc2395")
-		)
-		(instances
-			(project "ece49022-shelf"
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2385,6 +2316,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 172.72 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f1a7136-eacc-4b14-a012-21304bfb1329")
+		(property "Reference" "C3"
+			(at 175.514 126.746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF, 25V"
+			(at 169.672 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0402B104K250HI"
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c22b588-256a-41b8-953e-ce22e93f2f25")
+		)
+		(pin "2"
+			(uuid "57ebd649-6c4f-4e47-9965-bab71856209e")
+		)
+		(instances
+			(project "ece49022-shelf"
+				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 217.17 102.87 0)
 		(unit 1)
@@ -2541,7 +2541,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF, 16V"
+		(property "Value" "0.1uF, 25V"
 			(at 165.862 108.204 90)
 			(effects
 				(font
@@ -2568,7 +2568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0402B104K250HI"
 			(at 168.91 102.87 0)
 			(effects
 				(font
@@ -3228,7 +3228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0402W105K100HI"
 			(at 180.34 125.73 0)
 			(effects
 				(font
