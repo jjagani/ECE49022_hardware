@@ -753,6 +753,118 @@
 			)
 		)
 	)
+	(sheet
+		(at 182.88 72.39)
+		(size 29.21 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fb213d7f-28bb-4d6d-ba03-4017b4d07db5")
+		(property "Sheetname" "NAU7802"
+			(at 182.88 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NAU7802.kicad_sch"
+			(at 182.88 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "E-" input
+			(at 212.09 105.41 0)
+			(uuid "da733bfb-2e8e-4e5a-b0a5-cf07cb308ac5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E+" input
+			(at 212.09 99.06 0)
+			(uuid "d07788ba-a8ea-487a-84d0-598baa3555df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Green" input
+			(at 212.09 91.44 0)
+			(uuid "b37fad9d-c73a-423f-96ca-3a03ba034f69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "White" input
+			(at 212.09 82.55 0)
+			(uuid "c0b96311-84a7-4b70-952c-6db28120bdc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRDY" input
+			(at 182.88 82.55 180)
+			(uuid "3b610fdd-9cb7-4452-a16a-7378c9c989f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 182.88 90.17 180)
+			(uuid "4c7a2b84-ccd0-4a8b-9d7c-88cf010b87d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDIO" input
+			(at 182.88 100.33 180)
+			(uuid "74bab4e5-0294-445d-85e5-51813a484f89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ece49022-shelf"
+				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
