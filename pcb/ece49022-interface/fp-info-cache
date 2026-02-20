@@ -1,4 +1,74 @@
-24751549622004002
+24753321240110274
+49022_Footprints
+C_0402_1005Metric_small_pads
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+49022_Footprints
+Crystal_SMD_HC49-US
+SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
+SMD SMT crystal
+0
+2
+2
+49022_Footprints
+IND_MSS1048
+
+
+0
+2
+2
+49022_Footprints
+L_pol_2016
+Inductor with Polarity Marking 2016
+
+0
+2
+2
+49022_Footprints
+RP2350-QFN-60-1EP_7x7_P0.4mm_EP3.4x3.4mm_ThermalVias
+Raspberry Pi RP2350 QFN-60
+QFN DFN_QFN
+0
+74
+61
+49022_Footprints
+SMFDO-219AB_VIS-L
+
+SMF5V0A-E3-08 
+0
+2
+2
+49022_Footprints
+SOI16_NAU7802SGI_NUV-M
+
+NAU7802SGI 
+0
+16
+16
+49022_Footprints
+TPS40195PWR
+
+TPS40195PWR 
+0
+16
+16
+49022_Footprints
+TPS54202
+
+
+0
+6
+6
+49022_Footprints
+USB_Micro-B_Amphenol_10103594-0001LF_Horizontal_modified
+Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
+USB USB_B USB_micro USB_OTG
+0
+17
+6
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57252,69 +57322,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-ECE49022_Footprints
-C_0402_1005Metric_small_pads
-Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-ECE49022_Footprints
-Crystal_SMD_HC49-US
-SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
-SMD SMT crystal
-0
-2
-2
-ECE49022_Footprints
-IND_MSS1048
-
-
-0
-2
-2
-ECE49022_Footprints
-L_pol_2016
-Inductor with Polarity Marking 2016
-
-0
-2
-2
-ECE49022_Footprints
-RP2350-QFN-60-1EP_7x7_P0.4mm_EP3.4x3.4mm_ThermalVias
-Raspberry Pi RP2350 QFN-60
-QFN DFN_QFN
-0
-74
-61
-ECE49022_Footprints
-SOI16_NAU7802SGI_NUV-M
-
-NAU7802SGI 
-0
-16
-16
-ECE49022_Footprints
-TPS40195PWR
-
-TPS40195PWR 
-0
-16
-16
-ECE49022_Footprints
-TPS54202
-
-
-0
-6
-6
-ECE49022_Footprints
-USB_Micro-B_Amphenol_10103594-0001LF_Horizontal_modified
-Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
-USB USB_B USB_micro USB_OTG
-0
-17
-6
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters

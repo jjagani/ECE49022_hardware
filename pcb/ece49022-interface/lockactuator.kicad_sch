@@ -491,7 +491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "49022_Footprints:SMFDO-219AB_VIS-L"
 			(at 74.93 55.88 0)
 			(effects
 				(font
@@ -509,7 +509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "VS-E7FX0212HM3"
 			(at 74.93 55.88 0)
 			(effects
 				(font
