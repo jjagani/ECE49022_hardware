@@ -439,6 +439,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -621,6 +622,10 @@
     [
       "d90a4203-0e8d-4fad-a588-f7d5681a1fb6",
       "RP2350A"
+    ],
+    [
+      "fb213d7f-28bb-4d6d-ba03-4017b4d07db5",
+      "NAU7802"
     ]
   ],
   "text_variables": {}
