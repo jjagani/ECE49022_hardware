@@ -380,117 +380,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(wire
-		(pts
-			(xy 25.4 97.79) (xy 25.4 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "158da6f8-ceba-448b-bf09-b80bc04f9ec7")
 	)
 	(wire
 		(pts
@@ -541,16 +430,6 @@
 			(type default)
 		)
 		(uuid "ca7c95b8-cd4b-484b-9d0a-1e9d1a68a33c")
-	)
-	(wire
-		(pts
-			(xy 33.02 97.79) (xy 25.4 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4081b66-c7ec-4e57-9f51-251ce85be964")
 	)
 	(wire
 		(pts
@@ -623,72 +502,6 @@
 			(project ""
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 25.4 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2512adec-04b4-4144-b88f-41ec97496d82")
-		(property "Reference" "#PWR015"
-			(at 25.4 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0ba79b4-d8b5-479f-bc37-644090eba0ea")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -890,16 +703,6 @@
 				(justify left)
 			)
 		)
-		(pin "GND" input
-			(at 33.02 97.79 180)
-			(uuid "19630c22-d62e-4639-bd07-93836c707a0b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02"
@@ -946,48 +749,6 @@
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 182.88 72.39)
-		(size 29.21 40.64)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "fb213d7f-28bb-4d6d-ba03-4017b4d07db5")
-		(property "Sheetname" "NAU7802"
-			(at 182.88 71.6784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "NAU7802.kicad_sch"
-			(at 182.88 113.6146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ece49022-shelf"
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02"
-					(page "4")
 				)
 			)
 		)

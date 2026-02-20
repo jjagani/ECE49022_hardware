@@ -1,0 +1,252 @@
+(footprint "Crystal_SMD_HC49-US"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package")
+	(tags "SMD SMT crystal")
+	(property "Reference" "Y1"
+		(at 0 -3.55 0)
+		(layer "F.SilkS")
+		(uuid "f6dca4dd-b188-4e2e-ba41-c7aa41199c07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ABLS-12.000MHZ-B4-T"
+		(at 0 3.55 0)
+		(layer "F.Fab")
+		(uuid "0c26d9f2-e31a-427f-9bac-fb14d52e090a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42ddb1d4-821d-46d6-9fa9-2d6b22fe4b55")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44d6ae80-f0bb-4230-b873-e4c28bde6d1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.7 -2.55)
+		(end -6.7 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "012b801b-3b2c-4192-8365-22f96abaa0ef")
+	)
+	(fp_line
+		(start -6.7 1.3)
+		(end -6.7 2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c048705-133f-47af-948e-aa33a78f83c7")
+	)
+	(fp_line
+		(start -6.7 2.55)
+		(end 5.9 2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0129eef5-9ba8-4c92-be66-272e41f46b68")
+	)
+	(fp_line
+		(start 5.9 -2.55)
+		(end -6.7 -2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef8fd0fd-0e81-460c-b93c-3e7432de30fd")
+	)
+	(fp_line
+		(start -6.8 -2.6)
+		(end -6.8 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9142a6c6-c8b4-4694-a141-5036ec460749")
+	)
+	(fp_line
+		(start -6.8 2.6)
+		(end 6.8 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "727917de-f30e-45b1-adae-53744b5b51dc")
+	)
+	(fp_line
+		(start 6.8 -2.6)
+		(end -6.8 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1105a365-1dd6-4abf-9551-8c8c4c1763e2")
+	)
+	(fp_line
+		(start 6.8 2.6)
+		(end 6.8 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d02c968d-f1b4-455f-806e-1af269594757")
+	)
+	(fp_line
+		(start -5.7 -2.35)
+		(end -5.7 2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9adde49f-3e61-458e-a072-6fe4e9e14536")
+	)
+	(fp_line
+		(start -5.7 2.35)
+		(end 5.7 2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36e82266-60fb-47c9-a0bb-39bc25e135fb")
+	)
+	(fp_line
+		(start -3.015 -2.115)
+		(end 3.015 -2.115)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31e1c9fe-fe6a-4191-8313-38f83ee7b3e1")
+	)
+	(fp_line
+		(start -3.015 2.115)
+		(end 3.015 2.115)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74f47ca9-1e2d-47d7-87df-4f3172c54a9b")
+	)
+	(fp_line
+		(start 5.7 -2.35)
+		(end -5.7 -2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "370dd6cd-4a7f-48d0-9141-4f8b78775d33")
+	)
+	(fp_line
+		(start 5.7 2.35)
+		(end 5.7 -2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "93b36f86-f1ee-4781-8019-bcc566bf47a0")
+	)
+	(fp_arc
+		(start -3.015 2.115)
+		(mid -5.13 0)
+		(end -3.015 -2.115)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "172cc8e8-25b0-4daa-ad95-cb8cbf4513d1")
+	)
+	(fp_arc
+		(start 3.015 -2.115)
+		(mid 5.13 0)
+		(end 3.015 2.115)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54af5411-cc23-4e95-b654-f6935badb528")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9fdc8d2f-4f12-4d01-ac8e-fce6e4e99aaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.5 0)
+		(size 5.6 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d17d47ff-6a71-4cd8-9be2-8663f625302a")
+	)
+	(pad "2" smd rect
+		(at 4.5 0)
+		(size 5.6 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a514944c-7fef-4d09-9535-88162a2712dc")
+	)
+	(embedded_fonts no)
+	(model "${KISYS3DMOD}/Crystal.3dshapes/Crystal_SMD_HC49-SD.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
