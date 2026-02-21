@@ -3180,6 +3180,36 @@
 				(justify left top)
 			)
 		)
+		(pin "Buzzer_PWM" input
+			(at 81.28 158.75 180)
+			(uuid "c25b5c30-64f8-43d4-8bb4-1fc28626d180")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 81.28 167.64 180)
+			(uuid "46e72d85-0093-4eb8-b388-b54ce59acf33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 81.28 148.59 180)
+			(uuid "0dce3823-5a2e-43e8-a909-06851feb88b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ece49022-interface"
 				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176"
