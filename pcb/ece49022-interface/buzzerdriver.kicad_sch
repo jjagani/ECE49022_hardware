@@ -1807,7 +1807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C1815"
+		(property "Value" "KSC1815"
 			(at 130.81 110.4899 0)
 			(effects
 				(font
@@ -1834,7 +1834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5399-C1815CT-ND"
+		(property "Description" "KSC1815YTA"
 			(at 125.73 109.22 0)
 			(effects
 				(font
