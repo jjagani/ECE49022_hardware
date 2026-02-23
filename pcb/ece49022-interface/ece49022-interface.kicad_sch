@@ -1892,6 +1892,16 @@
 		)
 		(uuid "d2998d3c-71ca-4180-8119-4ee8780e4923")
 	)
+	(text "Need to figure out the lock state management\n"
+		(exclude_from_sim no)
+		(at 107.442 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "efabed0e-72a7-40d1-a458-63ed56203350")
+	)
 	(junction
 		(at 196.215 27.94)
 		(diameter 0)
