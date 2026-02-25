@@ -2564,7 +2564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "49022_Footprints:C_0402_1005Metric_small_pads"
 			(at 172.72 125.73 0)
 			(effects
 				(font
@@ -3291,7 +3291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "49022_Footprints:C_0402_1005Metric_small_pads"
 			(at 165.1 113.03 0)
 			(effects
 				(font
@@ -3432,7 +3432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "49022_Footprints:C_0402_1005Metric_small_pads"
 			(at 180.34 125.73 0)
 			(effects
 				(font
