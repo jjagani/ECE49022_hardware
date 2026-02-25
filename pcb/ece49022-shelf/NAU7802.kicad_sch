@@ -1888,7 +1888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.54 90.17 0)
 			(effects
 				(font
@@ -2139,7 +2139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18caf605-fcbf-45d1-affa-c512479ecad1")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR0101"
 			(at 180.34 138.43 0)
 			(effects
 				(font
@@ -2189,7 +2189,7 @@
 		(instances
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#PWR021")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -2616,7 +2616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f5c36a2-5148-4b1c-863a-70bc64a067d8")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR0104"
 			(at 217.17 109.22 0)
 			(effects
 				(font
@@ -2666,7 +2666,7 @@
 		(instances
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#PWR022")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -2772,7 +2772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 168.91 102.87 0)
 			(effects
 				(font
@@ -3075,7 +3075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b00e2409-f397-429a-b75c-1bc88bbe9969")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR0103"
 			(at 132.08 138.43 0)
 			(effects
 				(font
@@ -3125,7 +3125,7 @@
 		(instances
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#PWR017")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -3208,7 +3208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c575dca1-a270-43ff-aa5b-9b2cc40afa53")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR0102"
 			(at 165.1 138.43 0)
 			(effects
 				(font
@@ -3258,7 +3258,7 @@
 		(instances
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#PWR019")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
