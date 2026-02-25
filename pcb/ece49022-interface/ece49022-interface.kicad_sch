@@ -318,144 +318,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small_US"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "r resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_US_1_1"
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_Module:RaspberryPi_Pico_W"
 			(pin_names
 				(offset 0.762)
@@ -1902,12 +1764,6 @@
 		)
 		(uuid "efabed0e-72a7-40d1-a458-63ed56203350")
 	)
-	(junction
-		(at 196.215 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4eec5e80-97bc-4f95-b64a-0f3051823d16")
-	)
 	(no_connect
 		(at 165.735 60.96)
 		(uuid "30133f48-3ddc-41e3-96f2-31a6e68a4579")
@@ -1988,16 +1844,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.215 27.94) (xy 200.025 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d5706b0-2f04-444c-a92b-afd2b5bb1c7d")
-	)
-	(wire
-		(pts
 			(xy 75.565 161.925) (xy 86.36 161.925)
 		)
 		(stroke
@@ -2015,16 +1861,6 @@
 			(type default)
 		)
 		(uuid "36d9efac-a9d5-45e4-bb73-a493c8325412")
-	)
-	(wire
-		(pts
-			(xy 196.215 27.94) (xy 193.675 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38484739-90ff-42d2-9b6e-70a58eec8872")
 	)
 	(wire
 		(pts
@@ -2158,16 +1994,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.025 35.56) (xy 200.025 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d6fd6d5-097e-4606-a45c-0181222ce89d")
-	)
-	(wire
-		(pts
 			(xy 140.97 73.66) (xy 165.735 73.66)
 		)
 		(stroke
@@ -2205,16 +2031,6 @@
 			(type default)
 		)
 		(uuid "8921b06f-a635-4a81-bf31-22cfa79bef6e")
-	)
-	(wire
-		(pts
-			(xy 196.215 25.4) (xy 196.215 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d9432ca-9f4c-4c85-99e7-22a644700d7e")
 	)
 	(wire
 		(pts
@@ -2275,16 +2091,6 @@
 			(type default)
 		)
 		(uuid "9e408a2f-da9d-4613-98eb-d1f6d7a07e08")
-	)
-	(wire
-		(pts
-			(xy 200.025 27.94) (xy 200.025 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f0d234f-fcfc-493f-bd99-5a33a33beae9")
 	)
 	(wire
 		(pts
@@ -2425,16 +2231,6 @@
 			(type default)
 		)
 		(uuid "f5171e55-4923-4639-9130-58fea4ed814d")
-	)
-	(wire
-		(pts
-			(xy 193.675 27.94) (xy 193.675 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f548e3e1-4c8e-4d59-b6ba-5af5513e926c")
 	)
 	(wire
 		(pts
@@ -2625,16 +2421,6 @@
 			(justify left bottom)
 		)
 		(uuid "9b2e7a7a-0cdb-4ff3-9357-cdb2ada86359")
-	)
-	(label "3V3_LDO"
-		(at 200.025 38.1 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9e95f497-303f-4fba-94d0-fb62a31ef422")
 	)
 	(label "GPIO6"
 		(at 154.305 81.28 0)
@@ -2852,72 +2638,6 @@
 			(project "ece49022-interface"
 				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 196.215 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0795c8b4-7b83-4efb-bbc3-30fa83eb1ce9")
-		(property "Reference" "#PWR045"
-			(at 196.215 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 196.215 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.215 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.215 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 196.215 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "721dcf9d-f942-4ee4-8d63-28b3ef2bdd2b")
-		)
-		(instances
-			(project "ece49022-interface"
-				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3699,76 +3419,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 200.025 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6d64a41-a975-4f41-afe1-f0cfdfad9a25")
-		(property "Reference" "R2"
-			(at 202.565 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 202.565 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.025 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.025 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 200.025 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09ce3a78-8f17-4349-8a81-a9448ab9e1ae")
-		)
-		(pin "2"
-			(uuid "453beaaf-29c0-4228-bc43-8723646cc333")
-		)
-		(instances
-			(project ""
-				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 72.39 100.33 0)
 		(unit 1)
@@ -3860,7 +3510,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_2114_3652Metric_Pad1.85x3.75mm_HandSolder"
 			(at 183.515 35.56 0)
 			(effects
 				(font

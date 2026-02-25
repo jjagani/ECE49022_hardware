@@ -3531,7 +3531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf51a687-4e3b-4240-a8a7-f440f93c0f40")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0101"
 			(at 168.91 113.03 0)
 			(effects
 				(font
@@ -3581,7 +3581,7 @@
 		(instances
 			(project "ece49022-interface"
 				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176/0944a3eb-59fd-4ac1-bdcd-3b71376203c6"
-					(reference "#PWR039")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
