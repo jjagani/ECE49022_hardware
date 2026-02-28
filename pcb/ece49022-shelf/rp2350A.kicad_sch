@@ -4288,7 +4288,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 123.19) (xy 58.42 123.19)
+			(xy 36.83 123.19) (xy 58.42 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5587,7 +5587,7 @@
 		(uuid "21c23e7f-5382-4e4a-8afc-3e5c483b4e08")
 	)
 	(label "QSPI_SS"
-		(at 24.13 123.19 0)
+		(at 36.83 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5675,16 +5675,6 @@
 			(justify right bottom)
 		)
 		(uuid "3f21f565-7bd1-466c-88a1-fd8b458489e3")
-	)
-	(label "FLASH_SS"
-		(at 45.72 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c425075-f935-40e1-9231-798716b17ede")
 	)
 	(label "GPIO4"
 		(at 243.84 113.03 180)
