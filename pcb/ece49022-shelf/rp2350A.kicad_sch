@@ -6494,346 +6494,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 233.68 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005eef00bb")
-		(property "Reference" "C25"
-			(at 236.601 55.9816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 236.601 58.293 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 234.6452 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "520133e6-28ba-49c4-8e94-dea017e76fad")
-		)
-		(pin "2"
-			(uuid "1422bb26-e47f-411a-9417-5681ef83568b")
-		)
-		(instances
-			(project "ece49022-shelf"
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 245.11 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005eef0473")
-		(property "Reference" "C26"
-			(at 248.031 55.9816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 248.031 58.293 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 246.0752 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 245.11 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c8f3bad6-8352-4653-9de3-4c2be02cc87b")
-		)
-		(pin "2"
-			(uuid "4b750ad4-5120-4da6-abfd-5395f59a7ac3")
-		)
-		(instances
-			(project "ece49022-shelf"
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 256.54 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005eef0994")
-		(property "Reference" "C27"
-			(at 259.461 55.9816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 259.461 58.293 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 257.5052 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 256.54 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e69e6aae-8fbe-4f81-a203-e74715535b3a")
-		)
-		(pin "2"
-			(uuid "23e66139-6e83-4fe7-af70-e508407fc7a6")
-		)
-		(instances
-			(project "ece49022-shelf"
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 267.97 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005eef89b3")
-		(property "Reference" "C28"
-			(at 270.891 55.9816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 270.891 58.293 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 268.9352 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6195ca3c-f306-438a-bc57-aa1092e3e238")
-		)
-		(pin "2"
-			(uuid "3199c324-97d1-4f23-a2a1-2337b656facb")
-		)
-		(instances
-			(project "ece49022-shelf"
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 279.4 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005eef89bd")
-		(property "Reference" "C29"
-			(at 282.321 55.9816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 282.321 58.293 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 280.3652 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 279.4 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 279.4 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3e30991-80ca-479c-8684-01facc98930a")
-		)
-		(pin "2"
-			(uuid "41e2a77e-3de6-4e33-9b42-dd667e5209d6")
-		)
-		(instances
-			(project "ece49022-shelf"
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
-					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 43.18 224.79 0)
 		(unit 1)
@@ -7402,6 +7062,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 142.24 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22ad5e68-31fe-4cab-bfab-6404b0aafca7")
+		(property "Reference" "C23"
+			(at 145.161 55.9816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 145.161 58.293 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 143.2052 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CC0402KRX5R9BB104"
+			(at 142.24 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7eb97d49-7c43-4a43-98f5-9b77dd624442")
+		)
+		(pin "2"
+			(uuid "1f2c566b-ea13-4d7d-a459-c7a94ba5ef04")
+		)
+		(instances
+			(project "ece49022-shelf"
+				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 152.4 91.44 0)
 		(unit 1)
@@ -7467,15 +7196,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 290.83 57.15 0)
+		(at 245.11 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "258c4816-45ff-4431-9120-72ed127013b5")
-		(property "Reference" "C30"
-			(at 293.751 55.9816 0)
+		(uuid "2458a52a-17b7-41df-a605-134ee98dbae2")
+		(property "Reference" "C26"
+			(at 248.031 55.9816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7484,7 +7213,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 293.751 58.293 0)
+			(at 248.031 58.293 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7492,8 +7221,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 291.7952 60.96 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 246.0752 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7502,7 +7231,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 290.83 57.15 0)
+			(at 245.11 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,24 +7239,94 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 290.83 57.15 0)
+		(property "Description" "CC0402KRX5R9BB104"
+			(at 245.11 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "411351bd-05ee-4588-9d4a-a804cd70e4d3")
+			(uuid "df09f788-f81c-4461-a166-604ad0646b08")
 		)
 		(pin "2"
-			(uuid "8d1e4034-b7cb-47bc-8e52-d54bd1fd4754")
+			(uuid "eb5bfc6b-e83a-4e9a-a2f5-fb9a2ef8add2")
 		)
 		(instances
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
-					(reference "C30")
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 106.68 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25053645-17a4-434b-8b15-0a512a807c65")
+		(property "Reference" "C18"
+			(at 109.601 97.8916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 109.601 100.203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 107.6452 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CC0402MRX5R6BB475"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6e9482a-6df8-4a31-b9a1-4f340c3bea9b")
+		)
+		(pin "2"
+			(uuid "e084a95e-6d24-4582-93b6-82e2b25dc6c7")
+		)
+		(instances
+			(project "ece49022-shelf"
+				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7594,6 +7393,75 @@
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 165.1 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cdd2584-234d-4d2b-a5bb-677311969df2")
+		(property "Reference" "C20"
+			(at 168.021 55.9816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 168.021 58.293 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 166.0652 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CC0402KRX5R9BB104"
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5a4c3e0-c53d-4be6-bd7a-81b324437e11")
+		)
+		(pin "2"
+			(uuid "57b5a345-20de-4daa-89a4-1be4ec4e38ec")
+		)
+		(instances
+			(project "ece49022-shelf"
+				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -7823,7 +7691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 154.6352 60.96 0)
 			(effects
 				(font
@@ -7841,12 +7709,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CC0402MRX5R6BB475"
 			(at 153.67 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7891,7 +7760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 223.2152 60.96 0)
 			(effects
 				(font
@@ -7909,12 +7778,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CC0402KRX5R9BB104"
 			(at 222.25 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7927,6 +7797,75 @@
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 279.4 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3eaf5d80-9d85-4049-9588-71c8bdfae241")
+		(property "Reference" "C29"
+			(at 282.321 55.9816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 282.321 58.293 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 280.3652 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CC0402KRX5R9BB104"
+			(at 279.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bbc0206-cc55-46a4-b561-e08fd4997205")
+		)
+		(pin "2"
+			(uuid "db8ddec5-4644-4a56-bdc3-d7c57d934dce")
+		)
+		(instances
+			(project "ece49022-shelf"
+				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -8394,15 +8333,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 142.24 57.15 0)
+		(at 152.4 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6b45db0d-759a-4c73-b4a6-6ed0ce8da559")
-		(property "Reference" "C20"
-			(at 145.161 55.9816 0)
+		(uuid "6b952e9d-f34b-4d58-867d-026aebbc0f2a")
+		(property "Reference" "C21"
+			(at 155.321 85.1916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,8 +8349,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 145.161 58.293 0)
+		(property "Value" "4.7u"
+			(at 155.321 87.503 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,8 +8358,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 143.2052 60.96 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 153.3652 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8429,7 +8368,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 57.15 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,24 +8376,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 142.24 57.15 0)
+		(property "Description" "CC0402MRX5R6BB475"
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "bd2acfb2-4733-4914-a354-c5df1aaa36df")
+			(uuid "ab695d69-c207-4d1f-a42a-97dc174475d1")
 		)
 		(pin "2"
-			(uuid "9bdd4e66-c98b-4d95-bc1d-31c3c0c62845")
+			(uuid "75f5cca7-10f8-4bdd-a189-018c6f6776b5")
 		)
 		(instances
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8654,74 +8594,6 @@
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 165.1 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c9a6963-b928-4638-800a-b1d26f474269")
-		(property "Reference" "C23"
-			(at 168.021 55.9816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 168.021 58.293 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 166.0652 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "64bec8cb-3979-4593-8e0d-cea23ce54f45")
-		)
-		(pin "2"
-			(uuid "01b0e3d5-90d2-41bd-82a2-82becfa5821b")
-		)
-		(instances
-			(project "ece49022-shelf"
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
-					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -8998,6 +8870,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 290.83 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92a9ad99-cf2a-45e4-9000-491f77d8d076")
+		(property "Reference" "C30"
+			(at 293.751 55.9816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 293.751 58.293 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 291.7952 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 290.83 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CC0402KRX5R9BB104"
+			(at 290.83 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9208733-e5af-4669-bf48-a3dde0bc48bd")
+		)
+		(pin "2"
+			(uuid "c8b22f91-caf7-4e41-8d58-28c261042e9a")
+		)
+		(instances
+			(project "ece49022-shelf"
+				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 58.42 107.95 0)
 		(unit 1)
@@ -9136,16 +9077,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 152.4 86.36 0)
+		(at 267.97 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9c5535a-06e9-40e2-b589-86016fd998b6")
-		(property "Reference" "C21"
-			(at 156.21 85.09 0)
+		(uuid "a9f85527-cb5b-41e3-9e84-d08326404992")
+		(property "Reference" "C28"
+			(at 270.891 55.9816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9153,8 +9093,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 156.21 87.63 0)
+		(property "Value" "100n"
+			(at 270.891 58.293 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9162,8 +9102,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 153.3652 90.17 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 268.9352 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9172,7 +9112,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 86.36 0)
+			(at 267.97 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9180,24 +9120,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 152.4 86.36 0)
+		(property "Description" "CC0402KRX5R9BB104"
+			(at 267.97 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "26ba8fa2-99eb-4ba6-9cfd-2ef59d5d0b97")
+			(uuid "4242aa9a-04cc-4d0a-a4cc-e488039d6ee8")
 		)
 		(pin "2"
-			(uuid "1e9672f7-d753-4795-9ca5-e9171eaeaf7a")
+			(uuid "68e2b6c9-9753-40ec-ada6-e33524830f12")
 		)
 		(instances
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
-					(reference "C21")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -9534,75 +9475,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 118.11 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd8c8ad6-bad2-4279-8e81-d5753f78be4d")
-		(property "Reference" "C19"
-			(at 121.92 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 121.92 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 119.0752 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90f6c4d4-c0a8-4dc2-9bb5-59e52da509c1")
-		)
-		(pin "2"
-			(uuid "24eac5f0-a00a-46bc-bd68-41a83a36cd40")
-		)
-		(instances
-			(project "ece49022-shelf"
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 290.83 66.04 0)
 		(mirror y)
@@ -9694,7 +9566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 140.97 83.058 90)
 			(effects
 				(font
@@ -9712,12 +9584,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RC0402JR-0733RL"
 			(at 140.97 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9878,16 +9751,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 106.68 99.06 0)
+		(at 233.68 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e90c683d-0abc-468f-970a-5e41fc78e83c")
-		(property "Reference" "C18"
-			(at 109.601 98.2253 0)
+		(uuid "e10590c5-78f1-4e4a-9775-c00df1c498b6")
+		(property "Reference" "C25"
+			(at 236.601 55.9816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9895,8 +9767,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 109.601 100.7622 0)
+		(property "Value" "100n"
+			(at 236.601 58.293 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9904,8 +9776,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 107.6452 102.87 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 234.6452 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9914,7 +9786,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 99.06 0)
+			(at 233.68 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9922,24 +9794,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 106.68 99.06 0)
+		(property "Description" "CC0402KRX5R9BB104"
+			(at 233.68 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "e2f6a3dd-f454-452b-99d6-72105096a6e8")
+			(uuid "5054d220-93a2-4883-8509-3ae89150eaf8")
 		)
 		(pin "2"
-			(uuid "9796238e-a6d9-43ca-b22a-0618a0eef603")
+			(uuid "41a00f1b-227b-43b7-a85c-2513cfbcddd4")
 		)
 		(instances
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
-					(reference "C18")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -10004,6 +9877,75 @@
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 118.11 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2865d2f-64f5-402c-96e5-8c343751f13c")
+		(property "Reference" "C19"
+			(at 121.031 97.8916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 121.031 100.203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 119.0752 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CC0402MRX5R6BB475"
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34ce9cd2-84fa-4822-b478-97d14e6aa26c")
+		)
+		(pin "2"
+			(uuid "7b7db5ab-b4d6-44e7-9d0d-efdc0f027de7")
+		)
+		(instances
+			(project "ece49022-shelf"
+				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -10201,6 +10143,75 @@
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 256.54 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcf497fc-d148-4633-89f4-f3a43e7d37aa")
+		(property "Reference" "C27"
+			(at 259.461 55.9816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 259.461 58.293 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 257.5052 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CC0402KRX5R9BB104"
+			(at 256.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9eba5c45-85c8-4486-b160-bd5f58e4e4a6")
+		)
+		(pin "2"
+			(uuid "8c2790ba-5992-4e08-9c88-6bcbd23d8e8b")
+		)
+		(instances
+			(project "ece49022-shelf"
+				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/d90a4203-0e8d-4fad-a588-f7d5681a1fb6"
+					(reference "C27")
 					(unit 1)
 				)
 			)
