@@ -828,110 +828,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NAU7802-eagle-import:VCC"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#P+"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -2.54 90)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SUPPLY SYMBOL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC_1_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.27 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.905) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1547,7 +1443,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 82.55) (xy 147.32 87.63)
+			(xy 147.32 82.55) (xy 147.32 83.82)
 		)
 		(stroke
 			(width 0.1524)
@@ -1617,7 +1513,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 92.71) (xy 147.32 93.98)
+			(xy 147.32 88.9) (xy 147.32 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2427,7 +2323,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 93.98 0)
+		(at 147.32 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2435,7 +2331,7 @@
 		(dnp no)
 		(uuid "2c1d4051-53bf-4e6a-a37e-7efe6f6eadd6")
 		(property "Reference" "#PWR056"
-			(at 147.32 100.33 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +2340,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 98.298 0)
+			(at 147.32 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2348,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 93.98 0)
+			(at 147.32 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +2357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 93.98 0)
+			(at 147.32 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,7 +2366,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 93.98 0)
+			(at 147.32 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,78 +2381,6 @@
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:VCC")
-		(at 109.22 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d759780-e50b-4a71-a496-c4451749c5e2")
-		(property "Reference" "#P+2"
-			(at 109.22 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 106.68 83.82 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7ceb5ec-40c1-4bc0-9d6d-2a0b69df9bf7")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#P+2")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "#P+2")
 					(unit 1)
 				)
 			)
@@ -2623,6 +2447,72 @@
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
 					(reference "#U$01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 109.22 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aedf849-944a-4248-abb3-1c9aac1e8cc4")
+		(property "Reference" "#PWR057"
+			(at 109.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 109.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8055667-dff7-4db6-9d5b-0c35a18d9537")
+		)
+		(instances
+			(project "ece49022-shelf"
+				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2848,7 +2738,7 @@
 			)
 		)
 		(property "Value" "0.1uF, 25V"
-			(at 136.906 68.834 0)
+			(at 131.064 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,79 +2783,6 @@
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NAU7802-eagle-import:VCC")
-		(at 147.32 76.2 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f558ae3-de71-40df-8055-fce7ac2539e2")
-		(property "Reference" "#P+7"
-			(at 147.32 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 149.86 78.74 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3988142e-637f-41c9-adf1-acd19a7a997d")
-		)
-		(instances
-			(project ""
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "#P+7")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/f46caa08-94e3-4c42-8462-81738f26da11"
-					(reference "#P+7")
 					(unit 1)
 				)
 			)
@@ -3050,7 +2867,7 @@
 		(dnp no)
 		(uuid "89f7a209-c66a-46ce-ad4b-7b5cb43348d5")
 		(property "Reference" "IC1"
-			(at 152.4 96.52 0)
+			(at 154.94 96.266 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -3698,7 +3515,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 147.32 90.17 0)
+		(at 147.32 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3706,7 +3523,7 @@
 		(dnp no)
 		(uuid "ee976cc6-bd24-43b9-8a6a-93773be5caf1")
 		(property "Reference" "C32"
-			(at 149.352 90.17 0)
+			(at 149.352 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +3532,7 @@
 			)
 		)
 		(property "Value" "0.1uF, 25V"
-			(at 148.336 88.138 0)
+			(at 148.336 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +3541,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 147.32 90.17 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3550,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 90.17 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +3559,7 @@
 			)
 		)
 		(property "Description" "0402B104K250HI"
-			(at 147.32 90.17 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,6 +3577,72 @@
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 147.32 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef1e3228-04c3-4c31-ba48-01165c84eec2")
+		(property "Reference" "#PWR058"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 147.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8b7e437-0b51-44a6-a232-87b20efb0b56")
+		)
+		(instances
+			(project "ece49022-shelf"
+				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
