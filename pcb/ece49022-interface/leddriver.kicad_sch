@@ -928,6 +928,73 @@
 		(uuid "fe1ebfbb-ceab-47e5-896f-e08caff5d3ba")
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 172.72 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "414d8cf7-ddff-4eab-9d1b-5e99d243c744")
+		(property "Reference" "R5"
+			(at 172.72 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47, 1%"
+			(at 172.72 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 172.974 103.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RC0402FR-0747RL"
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3087a176-b86c-4bdf-986a-473678d3e261")
+		)
+		(pin "1"
+			(uuid "9641fd9d-43d0-46e2-8263-745c8ebfec94")
+		)
+		(instances
+			(project "ece49022-interface"
+				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176/e1b04e99-9c80-47c4-ba5b-fc45b73e6708"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 86.36 0)
 		(unit 1)
@@ -1075,24 +1142,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9a3c5fd7-102f-458a-b775-c2a6b492707e")
+		(uuid "a98f2594-efa7-4296-ad80-bd293d66cd44")
 		(property "Reference" "R6"
-			(at 188.214 106.426 90)
+			(at 187.96 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100, 1%"
-			(at 187.96 112.268 90)
+		(property "Value" "47, 1%"
+			(at 187.96 112.014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 188.214 108.204 90)
 			(effects
 				(font
@@ -1101,7 +1168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 187.96 109.22 0)
 			(effects
 				(font
@@ -1110,7 +1177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC0402FR-07100RL"
+		(property "Description" "RC0402FR-0747RL"
 			(at 187.96 109.22 0)
 			(effects
 				(font
@@ -1120,82 +1187,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3b8c76d5-3be6-4eeb-9f93-2f2230b658b1")
+			(uuid "92d636ab-08b9-4e08-859c-de622f885503")
 		)
 		(pin "1"
-			(uuid "d3b0d79f-731e-4d3e-b1c9-8f5a31e08145")
+			(uuid "69b74359-5cd8-4d80-b072-dd8a5063c9b8")
 		)
 		(instances
 			(project "ece49022-interface"
 				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176/e1b04e99-9c80-47c4-ba5b-fc45b73e6708"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 172.72 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c308c677-578b-4c70-be37-41ebfa619bdc")
-		(property "Reference" "R5"
-			(at 172.974 101.346 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100, 1%"
-			(at 172.72 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 172.974 103.124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RC0402FR-07100RL"
-			(at 172.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cb0aeb3d-faac-4ff4-af9a-f9bc1228c733")
-		)
-		(pin "1"
-			(uuid "e9bf76d7-9617-4101-9bb4-4a2be1aa18b8")
-		)
-		(instances
-			(project "ece49022-interface"
-				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176/e1b04e99-9c80-47c4-ba5b-fc45b73e6708"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -1209,25 +1209,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd7bdcb5-bdbb-4a79-b17c-de3538d544b6")
+		(uuid "b0b1f1aa-bead-49e5-88f3-0f8957209d09")
 		(property "Reference" "R4"
-			(at 157.48 92.71 90)
+			(at 157.48 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "180, 1%"
-			(at 157.48 95.25 90)
+		(property "Value" "47, 1%"
+			(at 157.48 101.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 157.734 98.044 90)
 			(effects
 				(font
@@ -1236,7 +1235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 157.48 99.06 0)
 			(effects
 				(font
@@ -1245,7 +1244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC0402FR-07180RL"
+		(property "Description" "RC0402FR-0747RL"
 			(at 157.48 99.06 0)
 			(effects
 				(font
@@ -1255,10 +1254,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e484ec6e-6bcd-4675-93ed-88f37757ebc0")
+			(uuid "acebc0e6-dd38-44dc-bbd2-b8fbefe134d0")
 		)
 		(pin "1"
-			(uuid "0510a690-c328-4b51-b552-fcf742db919e")
+			(uuid "92973014-bf46-4b09-b96f-6e07432fa811")
 		)
 		(instances
 			(project ""

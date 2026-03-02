@@ -1501,6 +1501,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 128.27 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "771f3d44-4196-4532-8e32-2960b0f68e3e")
+		(property "Reference" "R3"
+			(at 130.81 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k, 1%"
+			(at 130.81 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 127.254 91.186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RC0402FR-071KL"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09cd687f-5e19-4fe0-b723-7c2ed93ce62a")
+		)
+		(pin "1"
+			(uuid "ebff561c-c357-4da4-a0c6-4e2dd8c56aa4")
+		)
+		(instances
+			(project "ece49022-interface"
+				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176/6d9997a2-880e-441e-bac1-2563afa1369d"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PS1240P02BT Buzzer:PS1240P02BT")
 		(at 148.59 86.36 270)
 		(unit 1)
@@ -1528,7 +1598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XTAL_PS1240P02BT_TDK"
+		(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
 			(at 148.59 86.36 0)
 			(effects
 				(font
@@ -1580,76 +1650,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 128.27 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95c988b1-de7c-48e4-820c-c65f82efc54d")
-		(property "Reference" "R3"
-			(at 130.81 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k, 5%"
-			(at 130.81 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127.254 91.186 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RC0402JR-071KL"
-			(at 128.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4c1ad89f-ebe7-49ee-a7c8-3afb164db7e9")
-		)
-		(pin "1"
-			(uuid "5bbaf915-b5ba-4618-a190-153f88a192b2")
-		)
-		(instances
-			(project "ece49022-interface"
-				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176/6d9997a2-880e-441e-bac1-2563afa1369d"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 107.95 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1666,7 +1666,7 @@
 				)
 			)
 		)
-		(property "Value" "1k, 5%"
+		(property "Value" "1k, 1%"
 			(at 107.95 105.41 90)
 			(effects
 				(font
@@ -1674,7 +1674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 108.204 108.204 90)
 			(effects
 				(font
@@ -1683,7 +1683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 107.95 109.22 0)
 			(effects
 				(font
@@ -1692,7 +1692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC0402JR-071KL"
+		(property "Description" "RC0402FR-071KL"
 			(at 107.95 109.22 0)
 			(effects
 				(font
@@ -1816,7 +1816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
 			(at 189.23 109.22 0)
 			(effects
 				(font
@@ -1825,7 +1825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ksc1815-d.pdf"
 			(at 189.23 109.22 0)
 			(effects
 				(font
