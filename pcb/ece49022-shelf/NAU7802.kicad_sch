@@ -1867,7 +1867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF, 25V"
+		(property "Value" "0.1uF, 50V"
 			(at 126.492 95.504 90)
 			(effects
 				(font
@@ -1876,7 +1876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 129.54 90.17 0)
 			(effects
 				(font
@@ -1885,7 +1885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X5R_4V-TO-50V"
 			(at 129.54 90.17 0)
 			(effects
 				(font
@@ -1894,7 +1894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0402B104K250HI"
+		(property "Description" "CC0402KRX5R9BB104"
 			(at 129.54 90.17 0)
 			(effects
 				(font
@@ -1979,73 +1979,6 @@
 			(project ""
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 177.8 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12266fd6-415b-45bf-8150-a2f5724bd88a")
-		(property "Reference" "R2"
-			(at 177.8 109.982 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47, 0.1%"
-			(at 178.054 112.522 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 178.054 105.664 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RC0402FR-0747RL"
-			(at 177.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "603004e3-2099-423d-bce3-57973d5cf838")
-		)
-		(pin "2"
-			(uuid "b5e61eb5-a1ff-4010-8342-ff24e98d5eaa")
-		)
-		(instances
-			(project "ece49022-shelf"
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2387,6 +2320,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 172.72 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e202528-1b67-4c9d-a4af-bf4f84797d41")
+		(property "Reference" "C3"
+			(at 175.514 126.746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF, 50V"
+			(at 169.672 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X5R_4V-TO-50V"
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CC0402KRX5R9BB104"
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ab68985-d13e-4d5c-a5c6-e2796c559cb1")
+		)
+		(pin "2"
+			(uuid "b0d5cb38-2e9f-436e-a743-d233cc002e65")
+		)
+		(instances
+			(project "ece49022-shelf"
+				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NAU7802-eagle-import:AVDD")
 		(at 217.17 85.09 0)
 		(unit 1)
@@ -2585,75 +2587,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 172.72 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f1a7136-eacc-4b14-a012-21304bfb1329")
-		(property "Reference" "C3"
-			(at 175.514 126.746 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF, 25V"
-			(at 169.672 131.064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "49022_Footprints:C_0402_1005Metric_small_pads"
-			(at 172.72 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0402B104K250HI"
-			(at 172.72 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c22b588-256a-41b8-953e-ce22e93f2f25")
-		)
-		(pin "2"
-			(uuid "57ebd649-6c4f-4e47-9965-bab71856209e")
-		)
-		(instances
-			(project "ece49022-shelf"
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 217.17 102.87 0)
 		(unit 1)
@@ -2727,7 +2660,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "691824e7-603b-4c99-b9aa-cf7c3a553277")
+		(uuid "88b7b57d-5f7a-48cf-92e6-13a1e23e07fa")
 		(property "Reference" "C6"
 			(at 139.954 79.756 90)
 			(effects
@@ -2737,8 +2670,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF, 25V"
-			(at 131.064 75.946 0)
+		(property "Value" "0.1uF, 50V"
+			(at 141.986 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,7 +2679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 137.16 78.74 0)
 			(effects
 				(font
@@ -2755,7 +2688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X5R_4V-TO-50V"
 			(at 137.16 78.74 0)
 			(effects
 				(font
@@ -2764,7 +2697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0402B104K250HI"
+		(property "Description" "CC0402KRX5R9BB104"
 			(at 137.16 78.74 0)
 			(effects
 				(font
@@ -2774,84 +2707,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a1b1eb50-6a2a-45b7-84d5-55bf5cd259a5")
+			(uuid "27fff8aa-ef7e-4aa8-a622-677f021740ec")
 		)
 		(pin "2"
-			(uuid "d19b44e2-08ed-483d-814f-010cbfa232aa")
+			(uuid "2a7f398a-8e40-4910-a4df-7b1099f194ef")
 		)
 		(instances
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 168.91 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d6d7e2e-078d-40a3-a685-46e79304b56b")
-		(property "Reference" "C2"
-			(at 171.704 103.886 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF, 25V"
-			(at 165.862 108.204 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 168.91 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0402B104K250HI"
-			(at 168.91 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6684e337-7f4b-4c4f-b8e8-0832bd64e918")
-		)
-		(pin "2"
-			(uuid "d61ebefe-8be7-4d27-9a98-7235e25fc05a")
-		)
-		(instances
-			(project "ece49022-shelf"
-				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3041,6 +2905,73 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 177.8 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92be09a8-b840-4573-ad65-308a5c3c695f")
+		(property "Reference" "R1"
+			(at 177.8 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47, 1%"
+			(at 177.8 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 178.054 98.044 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RC0402FR-0747RL"
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "622324e1-719a-4325-a047-0c58a550fd13")
+		)
+		(pin "1"
+			(uuid "20fb6abc-93a8-4d8f-a633-0954ff9b4116")
+		)
+		(instances
+			(project "ece49022-shelf"
+				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 113.03 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3108,23 +3039,23 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 177.8 99.06 90)
+		(at 177.8 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "99a8ff1b-0b0d-47cf-ae19-618cb58f6678")
-		(property "Reference" "R1"
-			(at 177.8 92.71 90)
+		(uuid "a510b536-24f5-4498-b9e3-a8a3be55939f")
+		(property "Reference" "R2"
+			(at 177.8 112.014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "47, 0.1%"
-			(at 177.8 95.25 90)
+		(property "Value" "47, 1%"
+			(at 177.8 109.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +3063,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 178.054 98.044 90)
+			(at 178.054 105.664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,8 +3071,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 177.8 99.06 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +3081,7 @@
 			)
 		)
 		(property "Description" "RC0402FR-0747RL"
-			(at 177.8 99.06 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,16 +3089,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "8274aea7-4696-43e7-a569-9f7a3ccb1018")
-		)
 		(pin "2"
-			(uuid "a4a628a5-06c4-41ef-ba42-470d3b68359a")
+			(uuid "e6ac1de6-cbe6-4252-8274-b8f3f5bfa02a")
+		)
+		(pin "1"
+			(uuid "8caa0de7-f469-47eb-953d-54202ca1d5c9")
 		)
 		(instances
-			(project ""
+			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3399,7 +3330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "49022_Footprints:C_0402_1005Metric_small_pads"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 165.1 113.03 0)
 			(effects
 				(font
@@ -3408,7 +3339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
 			(at 165.1 113.03 0)
 			(effects
 				(font
@@ -3417,7 +3348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "GCM1555C1H681FA16D"
 			(at 165.1 113.03 0)
 			(effects
 				(font
@@ -3521,9 +3452,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ee976cc6-bd24-43b9-8a6a-93773be5caf1")
+		(uuid "d52ed67c-b056-4441-9a71-912b0c4c4b41")
 		(property "Reference" "C32"
-			(at 149.352 86.36 0)
+			(at 150.114 87.376 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3531,8 +3462,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF, 25V"
-			(at 148.336 84.328 0)
+		(property "Value" "0.1uF, 50V"
+			(at 152.908 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3540,7 +3471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 147.32 86.36 0)
 			(effects
 				(font
@@ -3549,7 +3480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X5R_4V-TO-50V"
 			(at 147.32 86.36 0)
 			(effects
 				(font
@@ -3558,7 +3489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0402B104K250HI"
+		(property "Description" "CC0402KRX5R9BB104"
 			(at 147.32 86.36 0)
 			(effects
 				(font
@@ -3568,10 +3499,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "982b96d6-359c-43ca-a8be-2b0cfc3adccf")
+			(uuid "31cf186b-428a-4516-83b2-ae2408eed14a")
 		)
 		(pin "2"
-			(uuid "30ae4f51-95be-4cb2-9142-1ccc2d254f46")
+			(uuid "48f0eea7-2b74-4dad-8d06-ab2ee14b3466")
 		)
 		(instances
 			(project "ece49022-shelf"
@@ -3675,7 +3606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "49022_Footprints:C_0402_1005Metric_small_pads"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 180.34 125.73 0)
 			(effects
 				(font
@@ -3684,7 +3615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X5R_4V-TO-50V"
 			(at 180.34 125.73 0)
 			(effects
 				(font
@@ -3693,7 +3624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0402W105K100HI"
+		(property "Description" "CC0402KRX5R6BB105"
 			(at 180.34 125.73 0)
 			(effects
 				(font
@@ -3712,6 +3643,75 @@
 			(project "ece49022-shelf"
 				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 168.91 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffb0925a-5d56-451e-850d-aba94abfe9a7")
+		(property "Reference" "C2"
+			(at 171.704 103.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF, 16V"
+			(at 173.228 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 168.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X5R_4V-TO-50V"
+			(at 168.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CC0402JRX7R7BB104"
+			(at 168.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04685ace-7372-4bca-8b38-f20baa4a55b1")
+		)
+		(pin "2"
+			(uuid "ea53e419-8c20-40a7-93d6-6906ef270e82")
+		)
+		(instances
+			(project "ece49022-shelf"
+				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02/fb213d7f-28bb-4d6d-ba03-4017b4d07db5"
+					(reference "C2")
 					(unit 1)
 				)
 			)
