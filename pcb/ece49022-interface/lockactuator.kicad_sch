@@ -1383,7 +1383,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k, 1%"
 			(at 73.66 80.0099 0)
 			(effects
 				(font
@@ -1392,7 +1392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 71.12 78.74 0)
 			(effects
 				(font
@@ -1410,7 +1410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "RC0402FR-0710KL"
 			(at 71.12 78.74 0)
 			(effects
 				(font
