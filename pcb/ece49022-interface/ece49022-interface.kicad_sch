@@ -2836,8 +2836,8 @@
 		)
 	)
 	(rectangle
-		(start 142.875 34.925)
-		(end 151.765 50.165)
+		(start 136.525 34.29)
+		(end 161.925 53.975)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2935,22 +2935,84 @@
 		(uuid "efabed0e-72a7-40d1-a458-63ed56203350")
 	)
 	(no_connect
+		(at 168.275 166.37)
+		(uuid "18f9eebf-4226-4d3a-adc8-b2de272677a5")
+	)
+	(no_connect
+		(at 122.555 135.89)
+		(uuid "1f9630b2-8df0-4423-a23b-d6ded7751d5d")
+	)
+	(no_connect
 		(at 122.555 128.27)
 		(uuid "30133f48-3ddc-41e3-96f2-31a6e68a4579")
+	)
+	(no_connect
+		(at 168.275 146.05)
+		(uuid "56ce15c5-61f5-4b39-bd91-4c49ad41c462")
+	)
+	(no_connect
+		(at 168.275 143.51)
+		(uuid "6c1e828d-36db-4e01-94a4-839b14caf5b6")
+	)
+	(no_connect
+		(at 168.275 138.43)
+		(uuid "6ff2a9ae-391e-4c14-b27f-0f924deb2fac")
+	)
+	(no_connect
+		(at 122.555 166.37)
+		(uuid "7796d921-e2b3-4048-aefd-72f360b12742")
+	)
+	(no_connect
+		(at 168.275 171.45)
+		(uuid "7cae142b-d74a-44e4-8868-0c9d1a6894d1")
+	)
+	(no_connect
+		(at 122.555 171.45)
+		(uuid "9c5af87d-2457-4888-b923-2e8f7681d9ed")
+	)
+	(no_connect
+		(at 168.275 156.21)
+		(uuid "9fcc1ffe-b306-4cf8-b7a7-a5c81afeb5ac")
+	)
+	(no_connect
+		(at 168.275 163.83)
+		(uuid "a36b303f-36d1-4345-90f7-b1d96cf126b6")
 	)
 	(no_connect
 		(at 145.415 106.68)
 		(uuid "c0921327-0d5e-4615-bd4c-7e978bd0da6d")
 	)
-	(wire
-		(pts
-			(xy 200.025 24.765) (xy 211.455 24.765)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01c0f90e-16a2-4955-9471-34d7bdade670")
+	(no_connect
+		(at 122.555 161.29)
+		(uuid "c32904ee-8405-4f6f-803d-d58f55e3ae47")
+	)
+	(no_connect
+		(at 168.275 161.29)
+		(uuid "c65cb892-0bff-4f1f-ab4e-deba5dd6c048")
+	)
+	(no_connect
+		(at 168.275 140.97)
+		(uuid "c9ff478e-41b8-435e-a2cd-e482536c72e2")
+	)
+	(no_connect
+		(at 122.555 133.35)
+		(uuid "d8a49b2b-5310-4b11-b9dd-522f7d4f6eb6")
+	)
+	(no_connect
+		(at 122.555 156.21)
+		(uuid "dcd3a9be-15f9-42e3-9f96-6cf9fada7ce7")
+	)
+	(no_connect
+		(at 122.555 125.73)
+		(uuid "df628d6c-e8e7-41eb-afea-52858faa08cd")
+	)
+	(no_connect
+		(at 122.555 158.75)
+		(uuid "ecb3a9f1-02ab-4f6f-8568-e9b9afb307e1")
+	)
+	(no_connect
+		(at 122.555 168.91)
+		(uuid "ff96d5d8-e21d-41ca-b09c-57e94ae49d65")
 	)
 	(wire
 		(pts
@@ -3504,6 +3566,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.225 46.355) (xy 173.355 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcde4c4e-d3b7-4838-9efa-52c068416bcd")
+	)
+	(wire
+		(pts
 			(xy 168.275 148.59) (xy 203.2 148.59)
 		)
 		(stroke
@@ -3573,7 +3645,7 @@
 		(uuid "224ded81-d805-4ce4-9862-679f174a4e42")
 	)
 	(label "LOCK_PWR"
-		(at 156.845 41.275 0)
+		(at 152.4 41.275 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3583,7 +3655,7 @@
 		(uuid "23d7824d-28a7-4e61-b489-dee8a47bd47e")
 	)
 	(label "LOCK_RTN"
-		(at 156.845 43.815 0)
+		(at 152.4 43.815 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3693,12 +3765,12 @@
 		(uuid "82f51a11-18fb-4ca8-bf0e-39ebba8c02ac")
 	)
 	(label "GPIO12"
-		(at 211.455 24.765 180)
+		(at 152.4 46.355 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8424269b-e2b6-4d33-aa38-d4b2a6abfe73")
 	)
@@ -4010,76 +4082,6 @@
 			(project "ece49022-interface"
 				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 106.045 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10499626-d354-40eb-b900-09b26138ee9a")
-		(property "Reference" "J4"
-			(at 97.79 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 97.79 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.045 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.045 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 106.045 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6b1abf24-17af-48f0-b905-072237ed5055")
-		)
-		(pin "1"
-			(uuid "88cd4cab-d2f9-4935-a70a-21a2230b8c7f")
-		)
-		(pin "2"
-			(uuid "9f8a98e8-f43a-447b-a5cf-35845e0f46b0")
-		)
-		(instances
-			(project ""
-				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5133,6 +5135,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 144.145 43.815 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7b96d90-42e3-4b88-bea7-b683b5e153c2")
+		(property "Reference" "J1"
+			(at 145.415 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 145.415 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 144.145 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.145 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 144.145 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e1d3e75-b556-450f-b887-ae36332d86b6")
+		)
+		(pin "2"
+			(uuid "4adba4d2-e195-43e6-bc0d-c0d899fd6e25")
+		)
+		(pin "3"
+			(uuid "ed9e5306-3ebe-4a92-ab19-eda9384d36c8")
+		)
+		(instances
+			(project ""
+				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 168.275 31.115 0)
 		(unit 1)
@@ -5477,74 +5549,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 144.145 41.275 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5ef60c9-1133-4722-819e-173e9ad231ec")
-		(property "Reference" "J1"
-			(at 144.653 38.227 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 144.78 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 144.145 41.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.145 41.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 144.145 41.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "11a2f43b-0eec-4729-92a9-593d086a9d2c")
-		)
-		(pin "1"
-			(uuid "d8c2a085-b2cf-45e9-afbd-77b59bb0c5b4")
-		)
-		(instances
-			(project "ece49022-interface"
-				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 59.69 121.285 0)
 		(unit 1)
@@ -5604,70 +5608,6 @@
 			(project "ece49022-interface"
 				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 106.045 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb6e337d-99a3-4e89-bdb8-b2ead87b818c")
-		(property "Reference" "J5"
-			(at 95.885 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 95.885 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.045 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.045 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 106.045 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d45a748d-b44b-4c27-a4ad-58cc7b092a5e")
-		)
-		(instances
-			(project ""
-				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6142,13 +6082,13 @@
 			)
 		)
 		(pin "LOCK_TRIGGER" input
-			(at 200.025 24.765 0)
+			(at 173.355 46.355 180)
 			(uuid "bf4a22c2-49e3-4f03-b6bf-167a20de7879")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "GND" input
