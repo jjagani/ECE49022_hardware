@@ -1528,7 +1528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT23_DMN3200U_2P9X1P3_DIO"
+		(property "Footprint" "49022_Footprints:SOT23_DMN3200U_2P9X1P3_DIO-L"
 			(at 74.93 73.66 0)
 			(effects
 				(font

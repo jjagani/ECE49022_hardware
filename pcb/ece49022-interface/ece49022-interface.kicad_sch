@@ -3619,6 +3619,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 48.26 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5ef60c9-1133-4722-819e-173e9ad231ec")
+		(property "Reference" "J1"
+			(at 48.768 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 48.895 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11a2f43b-0eec-4729-92a9-593d086a9d2c")
+		)
+		(pin "1"
+			(uuid "d8c2a085-b2cf-45e9-afbd-77b59bb0c5b4")
+		)
+		(instances
+			(project "ece49022-interface"
+				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 140.335 50.165 0)
 		(unit 1)
@@ -3679,74 +3747,6 @@
 			(project "ece49022-interface"
 				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 48.26 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d76fd07c-53b0-4182-bf7e-8a10e1dc87f1")
-		(property "Reference" "J1"
-			(at 50.546 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 44.45 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 48.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e945611-cd55-46e6-9852-fe5b13935066")
-		)
-		(pin "2"
-			(uuid "a74f4992-d34e-46a5-8b00-6365f9b3c87f")
-		)
-		(instances
-			(project ""
-				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176"
-					(reference "J1")
 					(unit 1)
 				)
 			)
