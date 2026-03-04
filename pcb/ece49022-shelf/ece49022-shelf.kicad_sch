@@ -2197,6 +2197,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 127) (xy 161.29 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ce1fe8-cc46-4f4d-a54d-21990f2acb6b")
+	)
+	(wire
+		(pts
 			(xy 135.89 90.17) (xy 157.48 90.17)
 		)
 		(stroke
@@ -2224,6 +2234,16 @@
 			(type default)
 		)
 		(uuid "9f2ac5e9-b456-4a05-a175-b68ebf57de6d")
+	)
+	(wire
+		(pts
+			(xy 161.29 124.46) (xy 161.29 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0637b59-14bc-4939-b5ef-c3ee6e1a8fdb")
 	)
 	(wire
 		(pts
@@ -3653,6 +3673,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 161.29 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b872744a-4fc5-4d83-bbb8-ebcbdd8c2377")
+		(property "Reference" "#PWR02"
+			(at 161.29 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 161.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 161.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9aef4d4-be54-44d2-a65d-5b37bb6b51a2")
+		)
+		(instances
+			(project ""
+				(path "/cb6cb1b4-c151-4aa2-8cd7-5430288cfa02"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 35.56 129.54 0)
 		(unit 1)
@@ -4509,16 +4595,6 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO17" input
-			(at 135.89 134.62 0)
-			(uuid "8bde22b3-2aac-47e5-ac2e-0d8cfe7cb64e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "+3V3" input
 			(at 95.25 77.47 180)
 			(uuid "b96543fe-4c17-452a-9061-bd1073997cc4")
@@ -4537,6 +4613,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "GPIO29" input
+			(at 135.89 134.62 0)
+			(uuid "f9d0deeb-eb4c-461e-be91-2628ce0bd9b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -4654,6 +4740,16 @@
 		(pin "+5V" input
 			(at 170.18 124.46 180)
 			(uuid "ea7220c4-4550-49c4-b24a-46cc6b487e0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3V3" input
+			(at 170.18 127 180)
+			(uuid "5f2696ca-da6b-4a9a-b651-bb09a4a0d36f")
 			(effects
 				(font
 					(size 1.27 1.27)
