@@ -3735,7 +3735,7 @@
 		)
 		(uuid "7a8adcf8-8b53-437e-b41b-b9707c7c60ca")
 	)
-	(label "GPIO18"
+	(label "GPIO22"
 		(at 18.415 93.98 0)
 		(effects
 			(font
@@ -3745,7 +3745,7 @@
 		)
 		(uuid "82f51a11-18fb-4ca8-bf0e-39ebba8c02ac")
 	)
-	(label "GPIO22"
+	(label "GPIO18"
 		(at 102.235 65.405 0)
 		(effects
 			(font
