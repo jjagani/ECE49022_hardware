@@ -3429,6 +3429,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 153.67) (xy 121.285 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce116ff5-ccea-4a04-a636-1674b569757d")
+	)
+	(wire
+		(pts
 			(xy 21.59 29.21) (xy 21.59 26.67)
 		)
 		(stroke
@@ -3687,7 +3697,7 @@
 		)
 		(uuid "82f51a11-18fb-4ca8-bf0e-39ebba8c02ac")
 	)
-	(label "GPIO28"
+	(label "GPIO13"
 		(at 102.235 65.405 0)
 		(effects
 			(font
@@ -3747,8 +3757,8 @@
 		)
 		(uuid "bb25179a-0802-4710-acb7-b5e62106d08e")
 	)
-	(label "GPIO28"
-		(at 67.31 184.785 0)
+	(label "GPIO13"
+		(at 114.3 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
