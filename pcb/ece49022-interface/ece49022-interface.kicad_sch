@@ -3075,16 +3075,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 25.4) (xy 59.69 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36d9efac-a9d5-45e4-bb73-a493c8325412")
-	)
-	(wire
-		(pts
 			(xy 17.78 76.2) (xy 26.67 76.2)
 		)
 		(stroke
@@ -3122,16 +3112,6 @@
 			(type default)
 		)
 		(uuid "4c92ae9c-a034-4527-9aad-782b0d4b802c")
-	)
-	(wire
-		(pts
-			(xy 48.26 29.21) (xy 59.69 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50ef503d-4800-432c-ac14-a4169c538774")
 	)
 	(wire
 		(pts
@@ -3202,6 +3182,16 @@
 			(type default)
 		)
 		(uuid "6da20cc5-a0ac-4c3e-a2a5-17706abece6c")
+	)
+	(wire
+		(pts
+			(xy 149.225 82.55) (xy 149.225 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70181fed-de1c-4dbf-98e2-304bc2729c1a")
 	)
 	(wire
 		(pts
@@ -3693,16 +3683,6 @@
 		)
 		(uuid "33687389-881c-49ce-82a8-df3053ca2b68")
 	)
-	(label "3V3_LDO"
-		(at 52.07 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39204a03-9132-414b-b174-45a13303d081")
-	)
 	(label "BC_VSS"
 		(at 96.52 143.51 0)
 		(effects
@@ -4063,7 +4043,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 59.69 25.4 0)
+		(at 149.225 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4071,7 +4051,7 @@
 		(dnp no)
 		(uuid "03b2ccc0-ae51-4175-8d45-3f33efe12835")
 		(property "Reference" "#PWR018"
-			(at 59.69 29.21 0)
+			(at 149.225 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4080,7 +4060,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 62.484 24.384 0)
+			(at 149.225 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,7 +4068,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 25.4 0)
+			(at 149.225 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4097,7 +4077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 25.4 0)
+			(at 149.225 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,7 +4086,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 59.69 25.4 0)
+			(at 149.225 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,16 +6288,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "3V3" input
-			(at 48.26 29.21 0)
-			(uuid "7ec05478-3f5d-4142-8951-38c5744cdf31")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
