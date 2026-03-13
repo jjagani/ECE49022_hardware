@@ -1601,6 +1601,76 @@
 		(uuid "f07bdc17-aecb-4cec-8135-0d2b51a9e6d6")
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 45.72 70.485 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ad18d4e-7d24-40c3-bfd7-b766d3dbd7e0")
+		(property "Reference" "R12"
+			(at 48.26 69.2149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "510K"
+			(at 48.26 71.7549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 45.72 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RC0402JR-070RL"
+			(at 45.72 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cafd10b-b47b-4ed6-9d5b-50aa95067ec5")
+		)
+		(pin "2"
+			(uuid "91732e49-4564-4130-9c29-4c1bf27b53d8")
+		)
+		(instances
+			(project "ece49022-interface"
+				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176/0944a3eb-59fd-4ac1-bdcd-3b71376203c6"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ECE49022_Symbols:MSS1048-103MLC")
 		(at 106.68 69.215 0)
 		(unit 1)
@@ -2027,76 +2097,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 45.72 70.485 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63fad999-f313-4d1e-a64c-0496a3306a79")
-		(property "Reference" "R12"
-			(at 48.26 69.2149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 48.26 71.7549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 45.72 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RC0402JR-070RL"
-			(at 45.72 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "849e70fe-3c17-433d-890c-be2fa9222dc6")
-		)
-		(pin "2"
-			(uuid "1547c1e4-553c-48f5-af31-5f15f94ec357")
-		)
-		(instances
-			(project "ece49022-interface"
-				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176/0944a3eb-59fd-4ac1-bdcd-3b71376203c6"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 128.27 88.265 0)
 		(unit 1)
@@ -2226,76 +2226,6 @@
 			(project "ece49022-interface"
 				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176/0944a3eb-59fd-4ac1-bdcd-3b71376203c6"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 45.72 81.915 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77b4bd69-009f-4043-b9af-527aa08cdf8d")
-		(property "Reference" "R13"
-			(at 48.26 80.6449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 48.26 83.1849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 45.72 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RC0402JR-070RL"
-			(at 45.72 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ed3f3e9-af42-4dcd-b78d-b03e1aae7f4e")
-		)
-		(pin "2"
-			(uuid "c11ebcce-2b98-4b33-9a71-33cd475ea07b")
-		)
-		(instances
-			(project "ece49022-interface"
-				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176/0944a3eb-59fd-4ac1-bdcd-3b71376203c6"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3045,6 +2975,76 @@
 			(project "ece49022-interface"
 				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176/0944a3eb-59fd-4ac1-bdcd-3b71376203c6"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 45.72 81.915 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff62dd44-c4d3-40c9-a68f-bf93f2045776")
+		(property "Reference" "R13"
+			(at 48.26 80.6449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "105k"
+			(at 48.26 83.1849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 45.72 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RC0402JR-070RL"
+			(at 45.72 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d787e47-05fc-44f4-8f99-81938d55ddc8")
+		)
+		(pin "2"
+			(uuid "1bebe8ae-877f-49c7-b6a4-2d36b9a6069e")
+		)
+		(instances
+			(project "ece49022-interface"
+				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176/0944a3eb-59fd-4ac1-bdcd-3b71376203c6"
+					(reference "R13")
 					(unit 1)
 				)
 			)

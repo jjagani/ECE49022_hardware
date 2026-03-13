@@ -1704,6 +1704,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.695 42.545) (xy 147.955 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef520f1-3a83-48d7-9c46-5fb9e4615293")
+	)
+	(wire
+		(pts
 			(xy 49.53 80.01) (xy 49.53 82.55)
 		)
 		(stroke
@@ -1774,6 +1784,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.955 28.575) (xy 144.78 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab8d3b2-7005-4641-a52e-c3406340ef8b")
+	)
+	(wire
+		(pts
 			(xy 57.15 105.41) (xy 57.15 106.68)
 		)
 		(stroke
@@ -1794,13 +1814,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 28.575) (xy 157.48 42.545)
+			(xy 147.955 42.545) (xy 147.955 28.575)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "718dcacd-b4ea-4624-aa71-fc3de8593822")
+		(uuid "774c4c48-92b8-44d4-a858-dba4211508ea")
 	)
 	(wire
 		(pts
@@ -1821,6 +1841,16 @@
 			(type default)
 		)
 		(uuid "7fe73d1b-1bef-4569-9004-2c3c6d10f2c3")
+	)
+	(wire
+		(pts
+			(xy 113.665 28.575) (xy 119.38 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825e152e-ff08-42b5-b1b4-b77cd84c2152")
 	)
 	(wire
 		(pts
@@ -1871,16 +1901,6 @@
 			(type default)
 		)
 		(uuid "c37ba13c-d241-4163-87a7-a14991d2e6d0")
-	)
-	(wire
-		(pts
-			(xy 146.685 28.575) (xy 157.48 28.575)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c601e503-6f24-4958-854b-622f785e4fc5")
 	)
 	(wire
 		(pts
@@ -1991,26 +2011,6 @@
 			(type default)
 		)
 		(uuid "eb49e537-00f0-4b40-9b31-7f490f4c2670")
-	)
-	(wire
-		(pts
-			(xy 99.695 42.545) (xy 157.48 42.545)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f071d54b-9364-433b-9041-8ec53f98ad07")
-	)
-	(wire
-		(pts
-			(xy 113.665 28.575) (xy 121.285 28.575)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f61c3186-36fe-4c1b-8fc1-86ef624423de")
 	)
 	(hierarchical_label "LOAD_RTN"
 		(shape input)
@@ -2191,7 +2191,7 @@
 	)
 	(symbol
 		(lib_id "ECE49022_Symbols:MSS1048-103MLC")
-		(at 133.985 28.575 0)
+		(at 132.08 28.575 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2199,7 +2199,7 @@
 		(dnp no)
 		(uuid "158a6ef2-7959-40c4-9009-bedabd494863")
 		(property "Reference" "L3"
-			(at 133.985 24.765 0)
+			(at 132.08 24.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,7 +2207,7 @@
 			)
 		)
 		(property "Value" "MSS1048T-563ML"
-			(at 133.985 24.765 0)
+			(at 132.08 24.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2216,7 +2216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.985 28.575 0)
+			(at 132.08 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2226,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.coilcraft.com/getmedia/6f8116f7-0036-41bf-97c5-9bae06e6af25/mss1048t.pdf"
-			(at 133.985 28.575 0)
+			(at 132.08 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2235,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.985 28.575 0)
+			(at 132.08 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +2244,7 @@
 			)
 		)
 		(property "MF" "Coilcraft"
-			(at 133.731 20.447 0)
+			(at 131.826 20.447 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,7 +2254,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.00mm"
-			(at 133.985 28.575 0)
+			(at 132.08 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,7 +2264,7 @@
 			)
 		)
 		(property "CREATOR" "AAMIR"
-			(at 133.985 28.575 0)
+			(at 132.08 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2274,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 133.985 28.575 0)
+			(at 132.08 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,7 +2284,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 133.985 28.575 0)
+			(at 132.08 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +2294,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MSS1048-103MLC/Coilcraft/view-part/?ref=eda"
-			(at 133.731 23.749 0)
+			(at 131.826 23.749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2304,7 +2304,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 133.985 28.575 0)
+			(at 132.08 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,7 +2314,7 @@
 			)
 		)
 		(property "PARTREV" "02/16/22"
-			(at 133.985 28.575 0)
+			(at 132.08 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,7 +2324,7 @@
 			)
 		)
 		(property "VERIFIER" "RODRIGO"
-			(at 133.985 28.575 0)
+			(at 132.08 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +2334,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MSS1048-103MLC/Coilcraft/view-part/?ref=snap"
-			(at 133.985 28.575 0)
+			(at 132.08 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,7 +2344,7 @@
 			)
 		)
 		(property "MP" "MSS1048-103MLC"
-			(at 133.985 28.575 0)
+			(at 132.08 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +2354,7 @@
 			)
 		)
 		(property "Description_1" "10 µH Shielded Drum Core Inductor 4.79 A 23mOhm Max Nonstandard"
-			(at 133.985 28.575 0)
+			(at 132.08 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,7 +2364,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 133.985 28.575 0)
+			(at 132.08 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +2374,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Coilcraft"
-			(at 133.985 28.575 0)
+			(at 132.08 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
