@@ -2242,7 +2242,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 81.28) (xy 90.17 83.82)
+			(xy 90.17 82.55) (xy 90.17 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2422,6 +2422,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 45.72) (xy 72.39 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c4e835-6192-4bd5-8f00-13bc0229218c")
+	)
+	(wire
+		(pts
 			(xy 135.89 134.62) (xy 170.18 134.62)
 		)
 		(stroke
@@ -2592,7 +2602,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 81.28) (xy 90.17 81.28)
+			(xy 95.25 82.55) (xy 90.17 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2669,6 +2679,16 @@
 			(type default)
 		)
 		(uuid "cd984fbb-e799-4de7-943c-044c3bd45c36")
+	)
+	(wire
+		(pts
+			(xy 82.55 80.01) (xy 95.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9eb85ac-487a-4c30-831f-50b46f5afc24")
 	)
 	(wire
 		(pts
@@ -2860,6 +2880,16 @@
 		)
 		(uuid "74c570f4-0337-4c25-91ce-449bd01c7afe")
 	)
+	(label "5V_USB"
+		(at 82.55 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75663538-62a8-42b1-91e2-5552ce4e760f")
+	)
 	(label "LCD_DB1"
 		(at 144.78 87.63 0)
 		(effects
@@ -3049,6 +3079,16 @@
 			(justify left bottom)
 		)
 		(uuid "ecef8ecc-9c71-4418-b1eb-b79c955810ee")
+	)
+	(label "5V_USB"
+		(at 60.96 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f371548e-629a-4f3b-b972-c9c2babbbf0d")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -4724,26 +4764,6 @@
 				(justify left top)
 			)
 		)
-		(pin "5V" input
-			(at 91.44 46.99 0)
-			(uuid "f89beaeb-a379-45af-b975-6d2dc9f86720")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "3.3V" input
-			(at 91.44 41.91 0)
-			(uuid "78a89b3c-17dc-4e32-a29b-8409c1cf7488")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "12V" input
 			(at 72.39 41.91 180)
 			(uuid "47a2dbb9-64b2-48cc-9ea3-555526d5488a")
@@ -4754,9 +4774,39 @@
 				(justify left)
 			)
 		)
-		(pin "GND" input
+		(pin "5V_USB" input
+			(at 72.39 45.72 180)
+			(uuid "01709884-ab2a-45b0-a960-a794581f51bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" output
+			(at 91.44 46.99 0)
+			(uuid "7a631c38-5917-4249-a09a-0c5d652529e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3.3V" output
+			(at 91.44 41.91 0)
+			(uuid "51336cea-44ac-4f6a-883f-226b934d73ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" passive
 			(at 91.44 52.07 0)
-			(uuid "f2986633-4b3e-4373-a1a0-a1f97557e9a1")
+			(uuid "774476b6-8d68-4862-90bf-7bac542811ee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +5016,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 95.25 81.28 180)
+			(at 95.25 82.55 180)
 			(uuid "5f6fb146-04fb-41a5-99da-f39fc227e886")
 			(effects
 				(font
@@ -4983,6 +5033,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "5V_USB" output
+			(at 95.25 80.01 180)
+			(uuid "8c419940-99a8-4089-8764-563c4c81a451")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
