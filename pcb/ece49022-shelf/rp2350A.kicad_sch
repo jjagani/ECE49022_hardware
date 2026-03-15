@@ -3609,7 +3609,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 143.51) (xy 243.84 143.51)
+			(xy 228.6 143.51) (xy 251.46 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3899,7 +3899,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 151.13) (xy 243.84 151.13)
+			(xy 228.6 151.13) (xy 251.46 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3969,7 +3969,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 148.59) (xy 243.84 148.59)
+			(xy 228.6 148.59) (xy 251.46 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4829,7 +4829,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 156.21) (xy 243.84 156.21)
+			(xy 228.6 156.21) (xy 251.46 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5179,7 +5179,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 146.05) (xy 243.84 146.05)
+			(xy 228.6 146.05) (xy 251.46 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5199,7 +5199,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 153.67) (xy 243.84 153.67)
+			(xy 228.6 153.67) (xy 251.46 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5937,6 +5937,28 @@
 		)
 		(uuid "ff3904c0-20d2-4b27-aec2-359ae154216d")
 	)
+	(hierarchical_label "GPIO17"
+		(shape input)
+		(at 251.46 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f058602-a1d2-4b49-9dfa-eec5f0d96aa2")
+	)
+	(hierarchical_label "GPIO20"
+		(shape input)
+		(at 251.46 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "186e04fe-8696-47e6-a54c-744392ef37b2")
+	)
 	(hierarchical_label "GPIO1"
 		(shape input)
 		(at 251.46 105.41 0)
@@ -6047,6 +6069,28 @@
 		)
 		(uuid "5d3029bd-fd6e-4d15-acf6-823bfa09dd45")
 	)
+	(hierarchical_label "GPIO16"
+		(shape input)
+		(at 251.46 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85650ada-f1d8-49b8-9ea2-a59ad2a603d5")
+	)
+	(hierarchical_label "GPIO18"
+		(shape input)
+		(at 251.46 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a1e7738-a77d-456b-8c93-078ba2712cdd")
+	)
 	(hierarchical_label "GPIO2"
 		(shape input)
 		(at 251.46 107.95 0)
@@ -6124,6 +6168,17 @@
 		)
 		(uuid "de38f5e5-b973-482e-9176-1b24d3d3641a")
 	)
+	(hierarchical_label "GPIO19"
+		(shape input)
+		(at 251.46 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dec4d7fe-9026-4f37-a553-fc1f8f376f80")
+	)
 	(hierarchical_label "GPIO10"
 		(shape input)
 		(at 251.46 128.27 0)
@@ -6145,6 +6200,17 @@
 			(justify left)
 		)
 		(uuid "ed89f95b-10d9-4d73-8169-bbec24973157")
+	)
+	(hierarchical_label "GPIO21"
+		(shape input)
+		(at 251.46 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2640c7f-9656-49f4-a829-243a829442d3")
 	)
 	(symbol
 		(lib_id "Memory_Flash:W25Q128JVS")
