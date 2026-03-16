@@ -4407,13 +4407,12 @@
 				)
 			)
 		)
-		(property "Value" "R_Small_US"
-			(at 179.07 101.6 90)
+		(property "Value" "100"
+			(at 183.388 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
