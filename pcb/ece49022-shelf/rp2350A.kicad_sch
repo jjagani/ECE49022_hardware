@@ -5687,6 +5687,16 @@
 		)
 		(uuid "7ee4a363-fd8d-4f0c-a336-0632d25bfeb1")
 	)
+	(label "USB_DP"
+		(at 231.14 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "872d5631-9345-4402-9101-24fa312eec7c")
+	)
 	(label "GPIO8"
 		(at 243.84 123.19 180)
 		(effects
@@ -5706,6 +5716,16 @@
 			(justify right bottom)
 		)
 		(uuid "9361ddf2-17e2-435f-a148-f11a334ce4c3")
+	)
+	(label "USB_DN"
+		(at 231.14 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b168b3f-4f95-46bf-a2a1-fd10e693081a")
 	)
 	(label "GPIO7"
 		(at 243.84 120.65 180)

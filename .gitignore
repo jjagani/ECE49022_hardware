@@ -2,3 +2,6 @@
 *.prl
 **/*backups/
 *kicad_pcb.lck
+*_autosave-*
+*.zip
+*_sch-bak
