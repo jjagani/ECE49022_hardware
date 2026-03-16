@@ -2763,7 +2763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d7e70b2-c83a-4284-a675-6c3db86ac398")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 137.16 49.53 90)
 			(effects
 				(font
@@ -2815,7 +2815,7 @@
 		(instances
 			(project "ece49022-interface"
 				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176/2cda17de-48e9-4606-9fa0-f43b9c27831a"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
