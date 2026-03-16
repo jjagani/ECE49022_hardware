@@ -2711,20 +2711,6 @@
 		)
 		(uuid "d2998d3c-71ca-4180-8119-4ee8780e4923")
 	)
-	(text "Need to figure out the lock state management\n"
-		(exclude_from_sim no)
-		(at 120.65 6.985 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "efabed0e-72a7-40d1-a458-63ed56203350")
-	)
-	(no_connect
-		(at 167.005 130.81)
-		(uuid "6c1e828d-36db-4e01-94a4-839b14caf5b6")
-	)
 	(no_connect
 		(at 167.005 158.75)
 		(uuid "7cae142b-d74a-44e4-8868-0c9d1a6894d1")
@@ -2740,10 +2726,6 @@
 	(no_connect
 		(at 144.145 93.98)
 		(uuid "c0921327-0d5e-4615-bd4c-7e978bd0da6d")
-	)
-	(no_connect
-		(at 121.285 148.59)
-		(uuid "c32904ee-8405-4f6f-803d-d58f55e3ae47")
 	)
 	(no_connect
 		(at 121.285 156.21)
@@ -2941,6 +2923,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.045 143.51) (xy 121.285 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae72a7e-f39d-4d63-aede-c4be99b22c35")
+	)
+	(wire
+		(pts
 			(xy 277.495 76.2) (xy 277.495 77.47)
 		)
 		(stroke
@@ -3081,6 +3073,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.045 138.43) (xy 121.285 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64514f99-2c7b-4d83-b6a2-b95cf2e67794")
+	)
+	(wire
+		(pts
 			(xy 221.615 50.165) (xy 210.185 50.165)
 		)
 		(stroke
@@ -3141,6 +3143,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.045 135.89) (xy 121.285 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c3b815-cdde-4ede-a1fe-b9b0cbc5354a")
+	)
+	(wire
+		(pts
 			(xy 60.96 72.39) (xy 60.96 78.74)
 		)
 		(stroke
@@ -3158,6 +3170,16 @@
 			(type default)
 		)
 		(uuid "75abf2fe-a197-43de-ac94-6f09ce59003c")
+	)
+	(wire
+		(pts
+			(xy 106.045 140.97) (xy 121.285 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7729efd4-9355-4884-b79e-b0986faa3e3d")
 	)
 	(wire
 		(pts
@@ -3401,7 +3423,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.345 146.05) (xy 121.285 146.05)
+			(xy 93.345 148.59) (xy 121.285 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3488,6 +3510,16 @@
 			(type default)
 		)
 		(uuid "f3ac6f78-a4c7-4b30-a815-25544e4f9015")
+	)
+	(wire
+		(pts
+			(xy 106.045 146.05) (xy 121.285 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e2731c-76bb-44d2-85a2-42c5ce9d1c6e")
 	)
 	(wire
 		(pts
@@ -3819,7 +3851,7 @@
 		)
 		(uuid "7cda117a-efa1-404d-a250-2baac10ee991")
 	)
-	(label "GPIO10"
+	(label "GPIO11"
 		(at 19.05 72.39 0)
 		(effects
 			(font
@@ -3949,8 +3981,8 @@
 		)
 		(uuid "da5c5731-c367-4b17-97a8-8b4bdd403e65")
 	)
-	(label "GPIO10"
-		(at 93.345 146.05 0)
+	(label "GPIO11"
+		(at 93.345 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4086,6 +4118,82 @@
 			(project "ece49022-interface"
 				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 100.965 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "033236b7-bca8-4da1-9eeb-6a411edd8d44")
+		(property "Reference" "J9"
+			(at 90.805 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05_Pin"
+			(at 90.805 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 100.965 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.965 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 100.965 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c30c5f0-ae84-4cdd-b0b1-a392e8adb9b9")
+		)
+		(pin "3"
+			(uuid "88038fda-0b1f-4b63-b657-969c64309fc0")
+		)
+		(pin "5"
+			(uuid "700b7bfd-bc04-4fb1-8a34-e5e6fde26aa7")
+		)
+		(pin "1"
+			(uuid "5a80aabe-e93e-410a-a603-e0b5ee7af84f")
+		)
+		(pin "4"
+			(uuid "7254741a-0c61-4198-b03b-7e2a37d2f97b")
+		)
+		(instances
+			(project ""
+				(path "/ad062fbe-cbe6-4ffd-876d-97a59a1c7176"
+					(reference "J9")
 					(unit 1)
 				)
 			)
